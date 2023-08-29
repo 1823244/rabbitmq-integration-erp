@@ -39,14 +39,14 @@
 		</UsualGroup>
 		<Button name="СоздатьТестовыйОтчетОРознПродажах" id="11">
 			<Type>UsualButton</Type>
-			<CommandName>Form.Command.СоздатьТестовыйОтчетОРознПродажах</CommandName>
+			<CommandName>Form.Command.СоздатьТестовыйДокумент</CommandName>
 			<ExtendedTooltip name="СоздатьТестовыйОтчетОРознПродажахРасширеннаяПодсказка" id="12"/>
 		</Button>
 	</ChildItems>
 	<Attributes>
 		<Attribute name="Объект" id="1">
 			<Type>
-				<v8:Type>cfg:ExternalDataProcessorObject.Плагин_RabbitMQ_экспорт_Документ_ОтчетОРозничныхПродажах</v8:Type>
+				<v8:Type>cfg:ExternalDataProcessorObject.Плагин_RabbitMQ_экспорт_Документ_ОперацияПоПлатежнойКарте</v8:Type>
 			</Type>
 			<MainAttribute>true</MainAttribute>
 		</Attribute>
@@ -54,7 +54,7 @@
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
-					<v8:content>Отчет о розничных продажах</v8:content>
+					<v8:content>Операция по платежной карте</v8:content>
 				</v8:item>
 			</Title>
 			<Type>
@@ -85,20 +85,20 @@
 			</ToolTip>
 			<Action>ВыгрузитьОбъект</Action>
 		</Command>
-		<Command name="СоздатьТестовыйОтчетОРознПродажах" id="2">
+		<Command name="СоздатьТестовыйДокумент" id="2">
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
-					<v8:content>Создать тестовый отчет о розн продажах</v8:content>
+					<v8:content>Создать тестовый документ</v8:content>
 				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
-					<v8:content>Создать тестовый отчет о розн продажах</v8:content>
+					<v8:content>Создать тестовый документ</v8:content>
 				</v8:item>
 			</ToolTip>
-			<Action>СоздатьТестовыйОтчетОРознПродажах</Action>
+			<Action>СоздатьТестовыйДокумент</Action>
 		</Command>
 	</Commands>
 </Form>
