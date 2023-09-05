@@ -24,12 +24,6 @@
 					<ContextMenu name="Декорация1КонтекстноеМеню" id="9"/>
 					<ExtendedTooltip name="Декорация1РасширеннаяПодсказка" id="10"/>
 				</LabelDecoration>
-				<InputField name="Номенклатура" id="3">
-					<DataPath>СсылочныйТип</DataPath>
-					<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
-					<ContextMenu name="НоменклатураКонтекстноеМеню" id="4"/>
-					<ExtendedTooltip name="НоменклатураРасширеннаяПодсказка" id="5"/>
-				</InputField>
 				<Button name="ВыгрузитьОбъект" id="6">
 					<Type>UsualButton</Type>
 					<CommandName>Form.Command.ВыгрузитьОбъект</CommandName>
@@ -41,27 +35,9 @@
 	<Attributes>
 		<Attribute name="Объект" id="1">
 			<Type>
-				<v8:Type>cfg:ExternalDataProcessorObject.Плагин_RabbitMQ_экспорт_Справочник_Склады</v8:Type>
+				<v8:Type>cfg:ExternalDataProcessorObject.Плагин_RabbitMQ_экспорт_Перечисление_ТипыСкладов</v8:Type>
 			</Type>
 			<MainAttribute>true</MainAttribute>
-		</Attribute>
-		<Attribute name="СсылочныйТип" id="2">
-			<Title>
-				<v8:item>
-					<v8:lang>ru</v8:lang>
-					<v8:content>Склад</v8:content>
-				</v8:item>
-			</Title>
-			<Type>
-				<v8:Type>xs:string</v8:Type>
-				<v8:StringQualifiers>
-					<v8:Length>0</v8:Length>
-					<v8:AllowedLength>Variable</v8:AllowedLength>
-				</v8:StringQualifiers>
-			</Type>
-			<Save>
-				<Field>СсылочныйТип</Field>
-			</Save>
 		</Attribute>
 	</Attributes>
 	<Commands>
