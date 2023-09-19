@@ -37,6 +37,11 @@
 				</Button>
 			</ChildItems>
 		</UsualGroup>
+		<Button name="создатьТестовыйОбъект" id="11">
+			<Type>UsualButton</Type>
+			<CommandName>Form.Command.создатьТестовыйОбъект</CommandName>
+			<ExtendedTooltip name="создатьТестовыйОбъектРасширеннаяПодсказка" id="12"/>
+		</Button>
 	</ChildItems>
 	<Attributes>
 		<Attribute name="Объект" id="1">
@@ -79,6 +84,21 @@
 				</v8:item>
 			</ToolTip>
 			<Action>ВыгрузитьОбъект</Action>
+		</Command>
+		<Command name="создатьТестовыйОбъект" id="2">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Создать тестовый объект</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Создать тестовый объект</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>создатьТестовыйОбъект</Action>
 		</Command>
 	</Commands>
 </Form>
