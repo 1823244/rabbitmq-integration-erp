@@ -16,6 +16,13 @@
 			</Button>
 		</ChildItems>
 	</AutoCommandBar>
+	<ChildItems>
+		<Button name="ВыгрузитьПеречисления" id="3">
+			<Type>UsualButton</Type>
+			<CommandName>Form.Command.ВыгрузитьПеречисления</CommandName>
+			<ExtendedTooltip name="ВыгрузитьПеречисленияРасширеннаяПодсказка" id="4"/>
+		</Button>
+	</ChildItems>
 	<Attributes>
 		<Attribute name="Объект" id="1">
 			<Type>
@@ -84,6 +91,21 @@
 				</v8:item>
 			</ToolTip>
 			<Action>ВыполнитьЭкспорт</Action>
+		</Command>
+		<Command name="ВыгрузитьПеречисления" id="4">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Выгрузить перечисления</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Выгрузить перечисления</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>ВыгрузитьПеречисления</Action>
 		</Command>
 	</Commands>
 </Form>
