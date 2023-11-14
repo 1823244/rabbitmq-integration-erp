@@ -14,6 +14,11 @@
 				</Picture>
 				<ExtendedTooltip name="ФормаВыполнитьЭкспортРасширеннаяПодсказка" id="2"/>
 			</Button>
+			<Button name="ФормаВыполнитьЭкспортВерсия2" id="5">
+				<Type>CommandBarButton</Type>
+				<CommandName>Form.Command.ВыполнитьЭкспортВерсия2</CommandName>
+				<ExtendedTooltip name="ФормаВыполнитьЭкспортВерсия2РасширеннаяПодсказка" id="6"/>
+			</Button>
 		</ChildItems>
 	</AutoCommandBar>
 	<ChildItems>
@@ -106,6 +111,21 @@
 				</v8:item>
 			</ToolTip>
 			<Action>ВыгрузитьПеречисления</Action>
+		</Command>
+		<Command name="ВыполнитьЭкспортВерсия2" id="5">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Выполнить экспорт версия2</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Выполнить экспорт версия2</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>ВыполнитьЭкспортВерсия2</Action>
 		</Command>
 	</Commands>
 </Form>
