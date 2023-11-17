@@ -4,7 +4,7 @@
 	<Attributes>
 		<Attribute name="Object" id="1">
 			<Type>
-				<v8:Type>cfg:ExternalDataProcessorObject.юнит_Плагин_RabbitMQ_импорт_из_Розницы_Документ_ОприходованиеТоваров</v8:Type>
+				<v8:Type>cfg:ExternalDataProcessorObject.юнит_Плагин_RabbitMQ_импорт_из_Розницы_Документ_ОтчетОРозничныхПродажах</v8:Type>
 			</Type>
 			<MainAttribute>true</MainAttribute>
 		</Attribute>

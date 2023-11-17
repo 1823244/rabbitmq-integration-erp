@@ -6,13 +6,13 @@
 				<xr:ClassId>c3831ec8-d8d5-4f93-8a22-f9bfae07327f</xr:ClassId>
 				<xr:ObjectId>1ba85a3e-7a90-42bd-b57e-ca3329d276b5</xr:ObjectId>
 			</xr:ContainedObject>
-			<xr:GeneratedType name="ExternalDataProcessorObject.юнит_Плагин_RabbitMQ_импорт_из_Розницы_Документ_ОприходованиеТоваров" category="Object">
+			<xr:GeneratedType name="ExternalDataProcessorObject.юнит_Плагин_RabbitMQ_импорт_из_Розницы_Документ_ОтчетОРозничныхПродажах" category="Object">
 				<xr:TypeId>b2a7885e-53cf-439d-866e-96ff8804d889</xr:TypeId>
 				<xr:ValueId>daf554d3-79c9-4794-b19a-816ccaa93e50</xr:ValueId>
 			</xr:GeneratedType>
 		</InternalInfo>
 		<Properties>
-			<Name>юнит_Плагин_RabbitMQ_импорт_из_Розницы_Документ_ОприходованиеТоваров</Name>
+			<Name>юнит_Плагин_RabbitMQ_импорт_из_Розницы_Документ_ОтчетОРозничныхПродажах</Name>
 			<Synonym>
 				<v8:item>
 					<v8:lang>en</v8:lang>
@@ -20,11 +20,11 @@
 				</v8:item>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
-					<v8:content>юнит_Плагин_RabbitMQ_импорт_из_Розницы_Документ_ОприходованиеТоваров</v8:content>
+					<v8:content>юнит_Плагин_RabbitMQ_импорт_из_Розницы_Документ_ОтчетОРозничныхПродажах</v8:content>
 				</v8:item>
 			</Synonym>
 			<Comment/>
-			<DefaultForm>ExternalDataProcessor.юнит_Плагин_RabbitMQ_импорт_из_Розницы_Документ_ОприходованиеТоваров.Form.Form</DefaultForm>
+			<DefaultForm>ExternalDataProcessor.юнит_Плагин_RabbitMQ_импорт_из_Розницы_Документ_ОтчетОРозничныхПродажах.Form.Form</DefaultForm>
 			<AuxiliaryForm/>
 		</Properties>
 		<ChildObjects>
