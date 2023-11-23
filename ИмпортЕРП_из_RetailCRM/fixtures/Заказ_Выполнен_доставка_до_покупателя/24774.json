@@ -1,0 +1,263 @@
+
+{
+
+      "success": true,
+      "order": {
+            "slug": 24774,
+            "bonusesCreditTotal": 0,
+            "bonusesChargeTotal": 0,
+            "id": 24774,
+            "number": "24774S",
+            "externalId": "175735",
+            "orderType": "main",
+            "orderMethod": "shopping-cart",
+            "privilegeType": "none",
+            "countryIso": "RU",
+            "createdAt": "2023-10-04 20:57:15",
+            "statusUpdatedAt": "2023-10-08 19:30:02",
+            "summ": 6999,
+            "totalSumm": 6999,
+            "prepaySum": 6999,
+            "purchaseSumm": 1923,
+            "markDatetime": "2023-10-04 20:57:15",
+            "lastName": "Иванова",
+            "firstName": "Надежда",
+            "phone": "79055408944",
+            "email": "nadezhdayu.ivanova@gmail.com",
+            "call": false,
+            "expired": false,
+            "customerComment": "",
+            "customer": {
+                  "type": "customer",
+                  "id": 593969,
+                  "externalId": "308146",
+                  "isContact": false,
+                  "createdAt": "2023-09-10 14:42:37",
+                  "managerId": 20,
+                  "vip": false,
+                  "bad": false,
+                  "site": "elis",
+                  "contragent": {
+                        "contragentType": "individual"
+                  },
+                  "tags": [ ],
+                  "customFields": {
+                        "mindboxid": "2821416",
+                        "mindboxlink": "https://elis.mindbox.ru/newcustomers/2821416/view/personal-info",
+                        "balance_totalvalue": "388",
+                        "balance_blockedvalue": "209",
+                        "balance_availablevalue": "179"
+                  },
+                  "marginSumm": 9152,
+                  "totalSumm": 12998,
+                  "averageSumm": 6499,
+                  "ordersCount": 2,
+                  "costSumm": 3846,
+                  "address": {
+                        "id": 13501,
+                        "index": "141006",
+                        "countryIso": "RU",
+                        "notes": "+7 (918) 543-66-16",
+                        "text": "Россия, Московская область, Мытищи, Шараповский проезд, вл2 с2 "
+                  },
+                  "segments": [ ],
+                  "firstName": "Надежда",
+                  "lastName": "Иванова",
+                  "sex": "female",
+                  "presumableSex": "female",
+                  "email": "nadezhdayu.ivanova@gmail.com",
+                  "phones": [
+                        {
+                              "number": "+79055408944"
+                        }
+                  ],
+                  "mgCustomers": [ ]
+            },
+            "contact": {
+                  "type": "customer",
+                  "id": 593969,
+                  "externalId": "308146",
+                  "isContact": false,
+                  "createdAt": "2023-09-10 14:42:37",
+                  "managerId": 20,
+                  "vip": false,
+                  "bad": false,
+                  "site": "elis",
+                  "contragent": {
+                        "contragentType": "individual"
+                  },
+                  "tags": [ ],
+                  "customFields": {
+                        "mindboxid": "2821416",
+                        "mindboxlink": "https://elis.mindbox.ru/newcustomers/2821416/view/personal-info",
+                        "balance_totalvalue": "388",
+                        "balance_blockedvalue": "209",
+                        "balance_availablevalue": "179"
+                  },
+                  "marginSumm": 9152,
+                  "totalSumm": 12998,
+                  "averageSumm": 6499,
+                  "ordersCount": 2,
+                  "costSumm": 3846,
+                  "address": {
+                        "id": 13501,
+                        "index": "141006",
+                        "countryIso": "RU",
+                        "notes": "+7 (918) 543-66-16",
+                        "text": "Россия, Московская область, Мытищи, Шараповский проезд, вл2 с2 "
+                  },
+                  "segments": [ ],
+                  "firstName": "Надежда",
+                  "lastName": "Иванова",
+                  "sex": "female",
+                  "presumableSex": "female",
+                  "email": "nadezhdayu.ivanova@gmail.com",
+                  "phones": [
+                        {
+                              "number": "+79055408944"
+                        }
+                  ],
+                  "mgCustomers": [ ]
+            },
+            "contragent": {
+                  "contragentType": "individual"
+            },
+            "delivery": {
+                  "code": "pfs",
+                  "integrationCode": "pfs",
+                  "data": {
+                        "locked": true,
+                        "pickuppointAddress": "Шараповский проезд, вл2 с2",
+                        "tariff": "shop",
+                        "tariffName": "Забрать в магазине",
+                        "pickuppointId": "fbf7666d-a4f3-11ec-9dd7-0050568e2ffe",
+                        "pickuppointSchedule": "Пн-Вс 10.00-22.00",
+                        "pickuppointPhone": "+79185436616",
+                        "payerType": "sender",
+                        "cost": 0,
+                        "pickuppointName": "ТРК Красный Кит",
+                        "pickuppointCoordinateLatitude": "37.759035",
+                        "pickuppointCoordinateLongitude": "55.916362",
+                        "extraData": {
+                              "sPvzName": "ТРК Красный Кит",
+                              "sDeliveryName": "e-comlog",
+                              "sTariffId": "2501",
+                              "sLastName": "Администратор магазина",
+                              "sFirstName": "ELIS"
+                        },
+                        "itemDeclaredValues": [ ],
+                        "packages": [ ]
+                  },
+                  "cost": 0,
+                  "netCost": 0,
+                  "date": "2023-10-06",
+                  "time": {
+                        "custom": "13:45:46"
+                  },
+                  "address": {
+                        "index": "141006",
+                        "countryIso": "RU",
+                        "notes": "+7 (918) 543-66-16",
+                        "text": "Россия, Московская область, Мытищи, Шараповский проезд, вл2 с2 "
+                  }
+            },
+            "site": "elis",
+            "status": "complete",
+            "items": [
+                  {
+                        "bonusesChargeTotal": 0,
+                        "bonusesCreditTotal": 0,
+                        "markingCodes": [ ],
+                        "id": 51837,
+                        "initialPrice": 6999,
+                        "discounts": [ ],
+                        "discountTotal": 0,
+                        "prices": [
+                              {
+                                    "price": 6999,
+                                    "quantity": 1
+                              }
+                        ],
+                        "vatRate": "20.00",
+                        "createdAt": "2023-10-04 20:57:15",
+                        "quantity": 1,
+                        "status": "sold",
+                        "comment": "Начисление бонусов ELIS RCRM( 209)",
+                        "offer": {
+                              "displayName": "Рубашка из трикотажа (46)",
+                              "id": 72349,
+                              "externalId": "2082466",
+                              "xmlId": "3dec5ecb-63ef-11ed-9ddc-0050568e2ffe#ea888910-8285-11ed-9ddd-0050568e2ffe",
+                              "name": "Рубашка из трикотажа",
+                              "article": "BL0343K2",
+                              "vatRate": "20.00",
+                              "properties": {
+                                    "sale": "SALE",
+                                    "size": "46",
+                                    "gender": "female",
+                                    "vendor": "ELIS",
+                                    "name_1c": "Блузка женская BL0343K2 3О4541 Белый",
+                                    "oldprice": "6999",
+                                    "colorsite": "Белый",
+                                    "collection": "OFFICE TIME",
+                                    "structuresite": "Модал - 58%, Нейлон - 33%, Спандекс - 9%",
+                                    "collectionsite": "Elis Осень 2023"
+                              },
+                              "unit": {
+                                    "code": "pc",
+                                    "name": "Штука",
+                                    "sym": "шт."
+                              }
+                        },
+                        "properties": {
+                              "carrierStatusDate": {
+                                    "code": "carrierStatusDate",
+                                    "name": "Дата доставки",
+                                    "value": "6.10.2023 13:45:46"
+                              },
+                              "sendDate": {
+                                    "code": "sendDate",
+                                    "name": "Дата отправки",
+                                    "value": "5.10.2023 23:32:00"
+                              }
+                        },
+                        "purchasePrice": 1923,
+                        "ordering": 0
+                  }
+            ],
+            "fullPaidAt": "2023-10-04 20:57:15",
+            "payments": {
+                  "24870": {
+                        "id": 24870,
+                        "status": "paid",
+                        "type": "pay",
+                        "externalId": "152552",
+                        "amount": 6999,
+                        "paidAt": "2023-10-04 20:57:15"
+                  }
+            },
+            "fromApi": true,
+            "weight": 300,
+            "length": 40,
+            "width": 30,
+            "height": 10,
+            "shipmentStore": "8511eaef-0f73-4ca9-afa7-1f67267aaa5f",
+            "shipped": false,
+            "customFields": {
+                  "test": false,
+                  "packing": "safe-package",
+                  "order_lost": false,
+                  "pfs_tracking": "77000000036243",
+                  "deliverymethod": "vmagazin",
+                  "wroteoffbonuses": true,
+                  "calculationofbonuses": 0,
+                  "writeoffbonusesamount": 0,
+                  "wroteoffbonusesamount": 0,
+                  "availablebonusesamount": 179,
+                  "commit_order_transaction": false,
+                  "pomeniat_status_bez_vygruzki_v_pfs": false
+            },
+            "currency": "RUB"
+      }
+
+}

@@ -1,0 +1,336 @@
+
+{
+
+      "success": true,
+      "order": {
+            "slug": 24802,
+            "bonusesCreditTotal": 0,
+            "bonusesChargeTotal": 0,
+            "id": 24802,
+            "number": "24802S",
+            "externalId": "175763",
+            "orderType": "main",
+            "orderMethod": "app",
+            "privilegeType": "none",
+            "countryIso": "RU",
+            "createdAt": "2023-10-05 09:34:11",
+            "statusUpdatedAt": "2023-10-06 14:12:19",
+            "summ": 4198,
+            "totalSumm": 4198,
+            "prepaySum": 4198,
+            "purchaseSumm": 4225,
+            "markDatetime": "2023-10-05 09:34:11",
+            "lastName": "Суворова",
+            "firstName": "Наталия",
+            "phone": "79268518402",
+            "email": "fna1995@yandex.ru",
+            "call": false,
+            "expired": true,
+            "managerId": 22,
+            "customer": {
+                  "type": "customer",
+                  "id": 597046,
+                  "externalId": "310894",
+                  "isContact": false,
+                  "createdAt": "2023-10-05 09:34:09",
+                  "managerId": 22,
+                  "vip": false,
+                  "bad": false,
+                  "site": "elis",
+                  "contragent": {
+                        "contragentType": "individual"
+                  },
+                  "tags": [ ],
+                  "customFields": {
+                        "mindboxid": "2791794",
+                        "mindboxlink": "https://elis.mindbox.ru/newcustomers/2791794/view/personal-info",
+                        "balance_totalvalue": "0",
+                        "balance_blockedvalue": "0",
+                        "balance_availablevalue": "0"
+                  },
+                  "marginSumm": -27,
+                  "totalSumm": 4198,
+                  "averageSumm": 4198,
+                  "ordersCount": 1,
+                  "costSumm": 4225,
+                  "address": {
+                        "id": 15101,
+                        "index": "101000",
+                        "countryIso": "RU",
+                        "notes": "+7 (989) 500-11-27   ",
+                        "text": "Россия, Москва, Пресненская наб., 2"
+                  },
+                  "segments": [ ],
+                  "firstName": "Наталия Суворова",
+                  "email": "fna1995@yandex.ru",
+                  "phones": [
+                        {
+                              "number": "+79268518402"
+                        }
+                  ],
+                  "mgCustomers": [ ]
+            },
+            "contact": {
+                  "type": "customer",
+                  "id": 597046,
+                  "externalId": "310894",
+                  "isContact": false,
+                  "createdAt": "2023-10-05 09:34:09",
+                  "managerId": 22,
+                  "vip": false,
+                  "bad": false,
+                  "site": "elis",
+                  "contragent": {
+                        "contragentType": "individual"
+                  },
+                  "tags": [ ],
+                  "customFields": {
+                        "mindboxid": "2791794",
+                        "mindboxlink": "https://elis.mindbox.ru/newcustomers/2791794/view/personal-info",
+                        "balance_totalvalue": "0",
+                        "balance_blockedvalue": "0",
+                        "balance_availablevalue": "0"
+                  },
+                  "marginSumm": -27,
+                  "totalSumm": 4198,
+                  "averageSumm": 4198,
+                  "ordersCount": 1,
+                  "costSumm": 4225,
+                  "address": {
+                        "id": 15101,
+                        "index": "101000",
+                        "countryIso": "RU",
+                        "notes": "+7 (989) 500-11-27   ",
+                        "text": "Россия, Москва, Пресненская наб., 2"
+                  },
+                  "segments": [ ],
+                  "firstName": "Наталия Суворова",
+                  "email": "fna1995@yandex.ru",
+                  "phones": [
+                        {
+                              "number": "+79268518402"
+                        }
+                  ],
+                  "mgCustomers": [ ]
+            },
+            "contragent": {
+                  "contragentType": "individual"
+            },
+            "delivery": {
+                  "code": "pfs",
+                  "integrationCode": "pfs",
+                  "data": {
+                        "locked": true,
+                        "pickuppointAddress": "Пресненская наб., 2",
+                        "tariff": "shop",
+                        "tariffName": "Забрать в магазине",
+                        "pickuppointId": "3643c09c-9b06-11ed-9ddd-0050568e2ffe",
+                        "pickuppointSchedule": "Пн-Чт 10.00-22.00, Пт-Вс 10.00-23.00",
+                        "pickuppointPhone": "+79895001127",
+                        "payerType": "sender",
+                        "cost": 0,
+                        "pickuppointName": "ТРЦ «Афимолл»",
+                        "pickuppointCoordinateLatitude": "37.539082",
+                        "pickuppointCoordinateLongitude": "55.748923",
+                        "extraData": {
+                              "sPvzName": "ТРЦ «Афимолл»",
+                              "sDeliveryName": "e-comlog",
+                              "sTariffId": "2501",
+                              "sFirstName": "ELIS",
+                              "sLastName": "Администратор магазина"
+                        },
+                        "itemDeclaredValues": [ ],
+                        "packages": [ ]
+                  },
+                  "cost": 0,
+                  "netCost": 0,
+                  "date": "2023-10-06",
+                  "time": {
+                        "custom": "13:40:20"
+                  },
+                  "address": {
+                        "index": "123112",
+                        "countryIso": "RU",
+                        "region": "Москва город",
+                        "regionId": 55,
+                        "city": "Москва",
+                        "cityId": 4995,
+                        "cityType": "г.",
+                        "street": "Пресненская набережная",
+                        "building": "2",
+                        "metro": "Деловой центр",
+                        "notes": "+7 (989) 500-11-27",
+                        "text": "Пресненская набережная, д. 2, метро Деловой центр, +7 (989) 500-11-27"
+                  }
+            },
+            "site": "elis",
+            "status": "dostavlen-v-magazin",
+            "items": [
+                  {
+                        "bonusesChargeTotal": 0,
+                        "bonusesCreditTotal": 0,
+                        "markingCodes": [ ],
+                        "id": 51888,
+                        "initialPrice": 5990,
+                        "discounts": [
+                              {
+                                    "type": "manual_product",
+                                    "amount": 4191
+                              }
+                        ],
+                        "discountTotal": 4191,
+                        "prices": [
+                              {
+                                    "price": 1799,
+                                    "quantity": 1
+                              }
+                        ],
+                        "vatRate": "20.00",
+                        "createdAt": "2023-10-05 09:34:11",
+                        "quantity": 1,
+                        "status": "dostavlen-v-magazin",
+                        "comment": "",
+                        "offer": {
+                              "displayName": "Юбка с радиальным гофре (42)",
+                              "id": 6427,
+                              "externalId": "1204868",
+                              "xmlId": "ff1f2791-ad8d-11eb-9dc7-0050568e2ffe#6584469a-d424-11eb-9dc9-0050568e2ffe",
+                              "name": "Юбка с радиальным гофре",
+                              "article": "SK0166",
+                              "vatRate": "20.00",
+                              "properties": {
+                                    "sale": "SALE",
+                                    "size": "42",
+                                    "gender": "female",
+                                    "vendor": "ELIS",
+                                    "name_1c": "Юбка женская SK0166 2В829 Бело-коричневый",
+                                    "oldprice": "5999",
+                                    "colorsite": "Бело-коричневый",
+                                    "collection": "SHADES OF LIGHT",
+                                    "structuresite": "Полиэстер - 100%",
+                                    "collectionsite": "Elis Весна 2022"
+                              },
+                              "unit": {
+                                    "code": "pc",
+                                    "name": "Штука",
+                                    "sym": "шт."
+                              }
+                        },
+                        "properties": {
+                              "carrierStatusDate": {
+                                    "code": "carrierStatusDate",
+                                    "name": "Дата доставки",
+                                    "value": "6.10.2023 13:40:20"
+                              },
+                              "sendDate": {
+                                    "code": "sendDate",
+                                    "name": "Дата отправки",
+                                    "value": "5.10.2023 23:32:00"
+                              }
+                        },
+                        "purchasePrice": 1706,
+                        "ordering": 0
+                  },
+                  {
+                        "bonusesChargeTotal": 0,
+                        "bonusesCreditTotal": 0,
+                        "markingCodes": [ ],
+                        "id": 51889,
+                        "initialPrice": 7999,
+                        "discounts": [
+                              {
+                                    "type": "manual_product",
+                                    "amount": 5600
+                              }
+                        ],
+                        "discountTotal": 5600,
+                        "prices": [
+                              {
+                                    "price": 2399,
+                                    "quantity": 1
+                              }
+                        ],
+                        "vatRate": "20.00",
+                        "createdAt": "2023-10-05 09:34:11",
+                        "quantity": 1,
+                        "status": "dostavlen-v-magazin",
+                        "comment": "",
+                        "offer": {
+                              "displayName": "Платье-миди с объемными рукавами (42)",
+                              "id": 44418,
+                              "externalId": "1380700",
+                              "xmlId": "b6d54aa8-2a79-11ec-9dd0-0050568e2ffe#6718ff8d-3ba3-11ec-9dd2-0050568e2ffe",
+                              "name": "Платье-миди с объемными рукавами",
+                              "article": "DR0394",
+                              "vatRate": "20.00",
+                              "properties": {
+                                    "sale": "SALE",
+                                    "size": "42",
+                                    "gender": "female",
+                                    "vendor": "ELIS",
+                                    "name_1c": "Платье женское DR0394 2В3116 Синий",
+                                    "oldprice": "7999",
+                                    "colorsite": "Синий",
+                                    "collection": "FLASH",
+                                    "structuresite": "Хлопок - 75%, Полиамид - 22%, Эластан - 3%",
+                                    "collectionsite": "Elis Весна 2022"
+                              },
+                              "unit": {
+                                    "code": "pc",
+                                    "name": "Штука",
+                                    "sym": "шт."
+                              }
+                        },
+                        "properties": {
+                              "carrierStatusDate": {
+                                    "code": "carrierStatusDate",
+                                    "name": "Дата доставки",
+                                    "value": "6.10.2023 13:40:20"
+                              },
+                              "sendDate": {
+                                    "code": "sendDate",
+                                    "name": "Дата отправки",
+                                    "value": "5.10.2023 23:32:00"
+                              }
+                        },
+                        "purchasePrice": 2519,
+                        "ordering": 0
+                  }
+            ],
+            "fullPaidAt": "2023-10-05 09:34:10",
+            "payments": {
+                  "24898": {
+                        "id": 24898,
+                        "status": "paid",
+                        "type": "pay",
+                        "externalId": "152580",
+                        "amount": 4198,
+                        "paidAt": "2023-10-05 09:34:10"
+                  }
+            },
+            "fromApi": true,
+            "weight": 300,
+            "length": 40,
+            "width": 30,
+            "height": 10,
+            "shipmentStore": "8511eaef-0f73-4ca9-afa7-1f67267aaa5f",
+            "shipped": false,
+            "customFields": {
+                  "test": false,
+                  "packing": "safe-package",
+                  "order_lost": false,
+                  "pfs_tracking": "77000000036282",
+                  "deliverymethod": "vmagazin",
+                  "wroteoffbonuses": true,
+                  "calculationofbonuses": 0,
+                  "writeoffbonusesamount": 0,
+                  "wroteoffbonusesamount": 0,
+                  "availablebonusesamount": 0,
+                  "pfs_update_order_error": "640 CarrierId was not provided",
+                  "commit_order_transaction": false,
+                  "pomeniat_status_bez_vygruzki_v_pfs": false
+            },
+            "currency": "RUB"
+      }
+
+}
