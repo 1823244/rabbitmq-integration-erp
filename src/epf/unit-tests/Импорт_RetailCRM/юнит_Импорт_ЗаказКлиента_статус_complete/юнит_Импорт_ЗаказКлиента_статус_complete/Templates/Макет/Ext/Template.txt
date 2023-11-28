@@ -1,6 +1,4 @@
-
-{
-
+﻿ {
             "slug": 24774,
             "bonusesCreditTotal": 0,
             "bonusesChargeTotal": 0,
@@ -256,5 +254,5 @@
                   "pomeniat_status_bez_vygruzki_v_pfs": false
             },
             "currency": "RUB"
+      }
 
-}
