@@ -1,24 +1,23 @@
 ﻿{
-    "source": "ERP",
+    "source": "UPP",
     "type": "Справочник.Склады",
     "datetime": "2023-09-02T17:36:18",
     "identification": {
         "type": "Справочник.Склады",
-        "Ref": "8e00315f-494c-11ee-8bbb-04ed33c124eb",
-        "isFolder": false,
-        "Parent": {
-            "type": "Справочник.Склады"
-        },
-        "Code": ""
+        "Ref": "8e00415f-594c-11ee-8bbb-04ed33c124eb"
     },
     "definition": {
+        "isFolder": false,
         "DeletionMark": false,
         "Code": "",
-        "Description": "Магазин 2",
-        "ТипСклада": {
-            "type": "Перечисление.ТипыСкладов",
-            "Значение": "РозничныйМагазин",
-            "Представление": "Розничный магазин"
+        "Description": "Склад из УПП №1",
+        "Parent": {
+	        "type": "Справочник.Склады",
+	        "Ref": "8e00415f-594c-11ee-8bab-01ed33c124eb",
+	        "isFolder": true,
+	        "Parent": {
+	            "type": "Справочник.Склады"
+	        }
         }
     }
 }

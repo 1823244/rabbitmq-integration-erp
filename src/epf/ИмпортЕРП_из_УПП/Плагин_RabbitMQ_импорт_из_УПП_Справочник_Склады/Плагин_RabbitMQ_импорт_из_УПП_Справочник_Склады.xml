@@ -26,6 +26,7 @@
 		<ChildObjects>
 			<Form>Форма</Form>
 			<Template>Пример</Template>
+			<Template>ПримерГруппы</Template>
 		</ChildObjects>
 	</ExternalDataProcessor>
 </MetaDataObject>
