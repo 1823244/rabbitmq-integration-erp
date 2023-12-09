@@ -108,7 +108,8 @@
 		мЧтениеJSON = Новый ЧтениеJSON;
 	КонецЕсли;
 	
-	ЗагрузитьДанныеИзОчереди_static2("to-erp-from-upp-static2");
+	//ЗагрузитьДанныеИзОчереди_static2("to-erp-from-upp-static");
+	ЗагрузитьДанныеИзОчереди_static2("to_erp_from_upp_static");
 		
 КонецПроцедуры
 
