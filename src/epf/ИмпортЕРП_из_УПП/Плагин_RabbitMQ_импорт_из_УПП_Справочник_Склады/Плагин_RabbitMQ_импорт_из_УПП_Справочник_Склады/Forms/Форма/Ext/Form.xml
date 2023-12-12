@@ -21,7 +21,6 @@
 					<DataPath>JsonText</DataPath>
 					<MultiLine>true</MultiLine>
 					<ExtendedEdit>true</ExtendedEdit>
-					<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
 					<ContextMenu name="JsonTextКонтекстноеМеню" id="12"/>
 					<ExtendedTooltip name="JsonTextРасширеннаяПодсказка" id="13"/>
 				</InputField>
