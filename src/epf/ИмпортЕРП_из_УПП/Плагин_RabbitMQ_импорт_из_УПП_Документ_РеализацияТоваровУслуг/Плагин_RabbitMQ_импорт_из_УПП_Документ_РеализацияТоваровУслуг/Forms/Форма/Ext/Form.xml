@@ -32,6 +32,11 @@
 			<CommandName>Form.Command.Тест_Схема_1_ПеремещениеНаФулфилмент</CommandName>
 			<ExtendedTooltip name="Тест_Схема_1_ПеремещениеНаФулфилментРасширеннаяПодсказка" id="33"/>
 		</Button>
+		<Button name="Тест_Схема_2_ПередачаНаКомиссию" id="34">
+			<Type>UsualButton</Type>
+			<CommandName>Form.Command.Тест_Схема_2_ПередачаНаКомиссию</CommandName>
+			<ExtendedTooltip name="Тест_Схема_2_ПередачаНаКомиссиюРасширеннаяПодсказка" id="35"/>
+		</Button>
 		<LabelDecoration name="Декорация1" id="29">
 			<Title formatted="false">
 				<v8:item>
@@ -167,6 +172,21 @@
 				</v8:item>
 			</ToolTip>
 			<Action>Тест_Схема_1_ПеремещениеНаФулфилмент</Action>
+		</Command>
+		<Command name="Тест_Схема_2_ПередачаНаКомиссию" id="3">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Тест схема 2 передача на комиссию</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Тест схема 2 передача на комиссию</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>Тест_Схема_2_ПередачаНаКомиссию</Action>
 		</Command>
 	</Commands>
 </Form>
