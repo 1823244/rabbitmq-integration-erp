@@ -1,0 +1,1 @@
+$.navAsAjax=false;$.sound_on=true;var throttle_delay=350,menu_speed=235,enableJarvisWidgets=true,enableMobileWidgets=false,fastClick=false,ignore_key_elms=["#header, #left-panel, #main, div.page-footer, #shortcut, #divSmallBoxes, #divMiniIcons, #divbigBoxes, #voiceModal, script"],voice_command=true,voice_command_auto=false,voice_command_lang="ru-RU",voice_localStorage=true;
