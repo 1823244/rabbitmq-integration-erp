@@ -40,6 +40,12 @@
 				</InputField>
 			</ChildItems>
 		</UsualGroup>
+		<InputField name="Сервер" id="142">
+			<DataPath>Сервер</DataPath>
+			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+			<ContextMenu name="СерверКонтекстноеМеню" id="143"/>
+			<ExtendedTooltip name="СерверРасширеннаяПодсказка" id="144"/>
+		</InputField>
 		<Pages name="ГруппаСтраницы" id="3">
 			<Title>
 				<v8:item>
@@ -649,9 +655,21 @@
 								</InputField>
 								<InputField name="АдресСписания" id="109">
 									<DataPath>АдресСписания</DataPath>
+									<ToolTip>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>адрес списания (адрес организации или магазина)</v8:content>
+										</v8:item>
+									</ToolTip>
 									<Width>20</Width>
 									<HorizontalStretch>true</HorizontalStretch>
 									<ClearButton>false</ClearButton>
+									<InputHint>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>адрес списания (адрес организации или магазина)</v8:content>
+										</v8:item>
+									</InputHint>
 									<ContextMenu name="АдресСписанияКонтекстноеМеню" id="110"/>
 									<ExtendedTooltip name="АдресСписанияРасширеннаяПодсказка" id="111"/>
 								</InputField>
