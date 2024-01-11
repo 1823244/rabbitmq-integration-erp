@@ -88,3 +88,10 @@ certmgr.msc\личное\тестовый сертификат:
      Дополнительное имя:
           URL=http://testgost2012.cryptopro.ru/CertEnroll/root2023-5.crt
 
+
+
+
+
+Проверить работу браузерного плагина
+
+https://www.cryptopro.ru/sites/default/files/products/cades/demopage/cades_bes_sample.html
