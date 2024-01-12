@@ -197,11 +197,6 @@
 					<ShowTitle>false</ShowTitle>
 					<ExtendedTooltip name="Группа1РасширеннаяПодсказка" id="76"/>
 					<ChildItems>
-						<InputField name="УИД" id="46">
-							<DataPath>УИД</DataPath>
-							<ContextMenu name="УИДКонтекстноеМеню" id="47"/>
-							<ExtendedTooltip name="УИДРасширеннаяПодсказка" id="48"/>
-						</InputField>
 						<Button name="ПолучитьТокен" id="1">
 							<Type>UsualButton</Type>
 							<CommandName>Form.Command.ПолучитьТокен</CommandName>
@@ -211,6 +206,11 @@
 							<DataPath>Токен</DataPath>
 							<ContextMenu name="ТокенКонтекстноеМеню" id="44"/>
 							<ExtendedTooltip name="ТокенРасширеннаяПодсказка" id="45"/>
+						</InputField>
+						<InputField name="УИД" id="46">
+							<DataPath>УИД</DataPath>
+							<ContextMenu name="УИДКонтекстноеМеню" id="47"/>
+							<ExtendedTooltip name="УИДРасширеннаяПодсказка" id="48"/>
 						</InputField>
 					</ChildItems>
 				</UsualGroup>
