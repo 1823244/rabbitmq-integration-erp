@@ -12,7 +12,6 @@
 		<InputField name="ВидНоменклатуры" id="6">
 			<DataPath>ВидНоменклатуры</DataPath>
 			<ClearButton>true</ClearButton>
-			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
 			<ContextMenu name="ВидНоменклатурыКонтекстноеМеню" id="7"/>
 			<ExtendedTooltip name="ВидНоменклатурыРасширеннаяПодсказка" id="8"/>
 		</InputField>
