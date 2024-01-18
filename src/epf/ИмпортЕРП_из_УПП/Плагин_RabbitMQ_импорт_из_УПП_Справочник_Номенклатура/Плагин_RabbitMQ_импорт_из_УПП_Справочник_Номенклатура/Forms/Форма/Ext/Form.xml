@@ -20,6 +20,23 @@
 			<CommandName>Form.Command.ЗагрузитьИзJson</CommandName>
 			<ExtendedTooltip name="ФормаЗагрузитьИзJsonРасширеннаяПодсказка" id="2"/>
 		</Button>
+		<InputField name="БитаяСсылка" id="9">
+			<DataPath>БитаяСсылка</DataPath>
+			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+			<ContextMenu name="БитаяСсылкаКонтекстноеМеню" id="10"/>
+			<ExtendedTooltip name="БитаяСсылкаРасширеннаяПодсказка" id="11"/>
+		</InputField>
+		<Button name="ПолучитьГуид" id="12">
+			<Type>UsualButton</Type>
+			<CommandName>Form.Command.ПолучитьГуид</CommandName>
+			<ExtendedTooltip name="ПолучитьГуидРасширеннаяПодсказка" id="13"/>
+		</Button>
+		<InputField name="гуид" id="14">
+			<DataPath>гуид</DataPath>
+			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+			<ContextMenu name="гуидКонтекстноеМеню" id="15"/>
+			<ExtendedTooltip name="гуидРасширеннаяПодсказка" id="16"/>
+		</InputField>
 	</ChildItems>
 	<Attributes>
 		<Attribute name="Объект" id="1">
@@ -58,6 +75,36 @@
 				</v8:StringQualifiers>
 			</Type>
 		</Attribute>
+		<Attribute name="БитаяСсылка" id="4">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Битая ссылка</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:string</v8:Type>
+				<v8:StringQualifiers>
+					<v8:Length>0</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
+			</Type>
+		</Attribute>
+		<Attribute name="гуид" id="5">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Гуид</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:string</v8:Type>
+				<v8:StringQualifiers>
+					<v8:Length>0</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
+			</Type>
+		</Attribute>
 	</Attributes>
 	<Commands>
 		<Command name="ЗагрузитьИзJson" id="1">
@@ -74,6 +121,21 @@
 				</v8:item>
 			</ToolTip>
 			<Action>ЗагрузитьИзJson</Action>
+		</Command>
+		<Command name="ПолучитьГуид" id="2">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Получить гуид</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Получить гуид</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>ПолучитьГуид</Action>
 		</Command>
 	</Commands>
 </Form>
