@@ -18,6 +18,11 @@
 			<ContextMenu name="ДокументСсылкаКонтекстноеМеню" id="4"/>
 			<ExtendedTooltip name="ДокументСсылкаРасширеннаяПодсказка" id="5"/>
 		</InputField>
+		<Button name="ПровестиОдинДокумент" id="6">
+			<Type>UsualButton</Type>
+			<CommandName>Form.Command.ПровестиОдинДокумент</CommandName>
+			<ExtendedTooltip name="ПровестиОдинДокументРасширеннаяПодсказка" id="7"/>
+		</Button>
 	</ChildItems>
 	<Attributes>
 		<Attribute name="Объект" id="1">
