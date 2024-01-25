@@ -11,6 +11,14 @@
 			</Button>
 		</ChildItems>
 	</AutoCommandBar>
+	<ChildItems>
+		<InputField name="ДокументСсылка" id="3">
+			<DataPath>ДокументСсылка</DataPath>
+			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+			<ContextMenu name="ДокументСсылкаКонтекстноеМеню" id="4"/>
+			<ExtendedTooltip name="ДокументСсылкаРасширеннаяПодсказка" id="5"/>
+		</InputField>
+	</ChildItems>
 	<Attributes>
 		<Attribute name="Объект" id="1">
 			<Type>
@@ -36,6 +44,20 @@
 				<Field>JsonText</Field>
 			</Save>
 		</Attribute>
+		<Attribute name="ДокументСсылка" id="2">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Документ ссылка</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:TypeSet>cfg:DocumentRef</v8:TypeSet>
+			</Type>
+			<Save>
+				<Field>ДокументСсылка</Field>
+			</Save>
+		</Attribute>
 	</Attributes>
 	<Commands>
 		<Command name="ВыполнитьОтложенноеПроведение" id="1">
@@ -52,6 +74,21 @@
 				</v8:item>
 			</ToolTip>
 			<Action>ВыполнитьОтложенноеПроведение</Action>
+		</Command>
+		<Command name="ПровестиОдинДокумент" id="2">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Провести один документ</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Провести один документ</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>ПровестиОдинДокумент</Action>
 		</Command>
 	</Commands>
 </Form>
