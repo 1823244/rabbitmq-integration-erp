@@ -18,7 +18,6 @@
 			<DataPath>JsonText</DataPath>
 			<MultiLine>true</MultiLine>
 			<ExtendedEdit>true</ExtendedEdit>
-			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
 			<ContextMenu name="JsonTextКонтекстноеМеню" id="4"/>
 			<ExtendedTooltip name="JsonTextРасширеннаяПодсказка" id="5"/>
 		</InputField>
@@ -29,7 +28,6 @@
 		</Button>
 		<InputField name="СсылочныйТип" id="8">
 			<DataPath>СсылочныйТип</DataPath>
-			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
 			<ContextMenu name="СсылочныйТипКонтекстноеМеню" id="9"/>
 			<ExtendedTooltip name="СсылочныйТипРасширеннаяПодсказка" id="10"/>
 		</InputField>
