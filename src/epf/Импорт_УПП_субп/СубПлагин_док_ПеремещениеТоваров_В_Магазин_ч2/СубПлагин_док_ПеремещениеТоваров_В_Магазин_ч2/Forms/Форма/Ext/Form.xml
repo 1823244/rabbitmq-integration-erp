@@ -35,7 +35,7 @@
 	<Attributes>
 		<Attribute name="Объект" id="1">
 			<Type>
-				<v8:Type>cfg:ExternalDataProcessorObject.Плагин_RabbitMQ_импорт_из_УПП_Документ_ПеремещениеТоваров</v8:Type>
+				<v8:Type>cfg:ExternalDataProcessorObject.СубПлагин_док_ПеремещениеТоваров_В_Магазин_ч2</v8:Type>
 			</Type>
 			<MainAttribute>true</MainAttribute>
 		</Attribute>
