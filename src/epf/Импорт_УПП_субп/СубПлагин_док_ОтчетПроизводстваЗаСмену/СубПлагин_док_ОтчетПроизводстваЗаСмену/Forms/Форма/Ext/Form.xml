@@ -71,6 +71,9 @@
 				<ContextMenu name="ТаблицаДокументовУправлениеПоискомКонтекстноеМеню" id="22"/>
 				<ExtendedTooltip name="ТаблицаДокументовУправлениеПоискомРасширеннаяПодсказка" id="23"/>
 			</SearchControlAddition>
+			<Events>
+				<Event name="Selection">ТаблицаДокументовВыбор</Event>
+			</Events>
 			<ChildItems>
 				<InputField name="ТаблицаДокументовДокСсылка" id="24">
 					<DataPath>ТаблицаДокументов.ДокСсылка</DataPath>
