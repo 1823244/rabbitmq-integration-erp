@@ -45,7 +45,15 @@
 			<DataPath>ТаблицаДокументов</DataPath>
 			<RowFilter xsi:nil="true"/>
 			<ContextMenu name="ТаблицаДокументовКонтекстноеМеню" id="12"/>
-			<AutoCommandBar name="ТаблицаДокументовКоманднаяПанель" id="13"/>
+			<AutoCommandBar name="ТаблицаДокументовКоманднаяПанель" id="13">
+				<ChildItems>
+					<Button name="ТаблицаДокументовПровестиДокументы" id="30">
+						<Type>CommandBarButton</Type>
+						<CommandName>Form.Command.ПровестиДокументы</CommandName>
+						<ExtendedTooltip name="ТаблицаДокументовПровестиДокументыРасширеннаяПодсказка" id="31"/>
+					</Button>
+				</ChildItems>
+			</AutoCommandBar>
 			<ExtendedTooltip name="ТаблицаДокументовРасширеннаяПодсказка" id="14"/>
 			<SearchStringAddition name="ТаблицаДокументовСтрокаПоиска" id="15">
 				<AdditionSource>
@@ -195,6 +203,21 @@
 				</v8:item>
 			</ToolTip>
 			<Action>УдалитьВсеОтчеты</Action>
+		</Command>
+		<Command name="ПровестиДокументы" id="3">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Провести документы</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Провести документы</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>ПровестиДокументы</Action>
 		</Command>
 	</Commands>
 </Form>
