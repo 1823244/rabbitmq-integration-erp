@@ -27,6 +27,12 @@
 			<ContextMenu name="СкладЕРПКонтекстноеМеню" id="28"/>
 			<ExtendedTooltip name="СкладЕРПРасширеннаяПодсказка" id="29"/>
 		</InputField>
+		<CheckBoxField name="ПровестиПриЗаписи" id="32">
+			<DataPath>ПровестиПриЗаписи</DataPath>
+			<CheckBoxType>Auto</CheckBoxType>
+			<ContextMenu name="ПровестиПриЗаписиКонтекстноеМеню" id="33"/>
+			<ExtendedTooltip name="ПровестиПриЗаписиРасширеннаяПодсказка" id="34"/>
+		</CheckBoxField>
 		<Button name="ЗагрузитьИзJson" id="6">
 			<Type>UsualButton</Type>
 			<CommandName>Form.Command.ЗагрузитьИзJson</CommandName>
@@ -171,6 +177,17 @@
 			<Save>
 				<Field>СкладЕРП</Field>
 			</Save>
+		</Attribute>
+		<Attribute name="ПровестиПриЗаписи" id="6">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Провести при записи</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:boolean</v8:Type>
+			</Type>
 		</Attribute>
 	</Attributes>
 	<Commands>
