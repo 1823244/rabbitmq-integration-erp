@@ -6,21 +6,21 @@
 				<xr:ClassId>c3831ec8-d8d5-4f93-8a22-f9bfae07327f</xr:ClassId>
 				<xr:ObjectId>bed31ca9-289a-46b7-a54c-bf8296de9a11</xr:ObjectId>
 			</xr:ContainedObject>
-			<xr:GeneratedType name="ExternalDataProcessorObject.СубПлагин_док_ОтчетПроизводстваЗаСмену" category="Object">
+			<xr:GeneratedType name="ExternalDataProcessorObject.Плагин_RabbitMQ_импорт_из_УПП_Документ_КомплектацияНоменклатуры" category="Object">
 				<xr:TypeId>c7b12623-64aa-4c52-9a3f-5d9a9dca6d5f</xr:TypeId>
 				<xr:ValueId>1910644f-51fc-42c8-8c31-d1d1a493b599</xr:ValueId>
 			</xr:GeneratedType>
 		</InternalInfo>
 		<Properties>
-			<Name>СубПлагин_док_ОтчетПроизводстваЗаСмену</Name>
+			<Name>Плагин_RabbitMQ_импорт_из_УПП_Документ_КомплектацияНоменклатуры</Name>
 			<Synonym>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
-					<v8:content>СубПлагин_док_ОтчетПроизводстваЗаСмену</v8:content>
+					<v8:content>Плагин_RabbitMQ_импорт_из_УПП_Документ_КомплектацияНоменклатуры</v8:content>
 				</v8:item>
 			</Synonym>
 			<Comment/>
-			<DefaultForm>ExternalDataProcessor.СубПлагин_док_ОтчетПроизводстваЗаСмену.Form.Форма</DefaultForm>
+			<DefaultForm>ExternalDataProcessor.Плагин_RabbitMQ_импорт_из_УПП_Документ_КомплектацияНоменклатуры.Form.Форма</DefaultForm>
 			<AuxiliaryForm/>
 		</Properties>
 		<ChildObjects>
@@ -60,8 +60,6 @@
 			</Attribute>
 			<Form>Форма</Form>
 			<Template>Макет</Template>
-			<Template>ЭтапПроизводства</Template>
-			<Template>ДвижениеПродукцииИМатериалов</Template>
 		</ChildObjects>
 	</ExternalDataProcessor>
 </MetaDataObject>
