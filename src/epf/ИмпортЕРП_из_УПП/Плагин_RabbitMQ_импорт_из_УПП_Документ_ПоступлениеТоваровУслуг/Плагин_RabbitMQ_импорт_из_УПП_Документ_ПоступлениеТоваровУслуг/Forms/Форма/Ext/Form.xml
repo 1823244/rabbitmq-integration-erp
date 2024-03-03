@@ -18,7 +18,6 @@
 			<DataPath>JsonText</DataPath>
 			<MultiLine>true</MultiLine>
 			<ExtendedEdit>true</ExtendedEdit>
-			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
 			<ContextMenu name="JsonTextКонтекстноеМеню" id="4"/>
 			<ExtendedTooltip name="JsonTextРасширеннаяПодсказка" id="5"/>
 		</InputField>
@@ -85,7 +84,6 @@
 				<InputField name="ТЗДокументовДокумент" id="26">
 					<DataPath>ТЗДокументов.Документ</DataPath>
 					<EditMode>EnterOnInput</EditMode>
-					<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
 					<ContextMenu name="ТЗДокументовДокументКонтекстноеМеню" id="27"/>
 					<ExtendedTooltip name="ТЗДокументовДокументРасширеннаяПодсказка" id="28"/>
 				</InputField>
