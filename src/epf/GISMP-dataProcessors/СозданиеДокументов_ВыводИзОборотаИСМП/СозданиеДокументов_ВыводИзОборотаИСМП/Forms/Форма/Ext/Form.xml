@@ -8,16 +8,38 @@
 	<ChildItems>
 		<InputField name="ДвиженияКМФулфилмент" id="1">
 			<DataPath>ДвиженияКМФулфилмент</DataPath>
-			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+			<DropListButton>true</DropListButton>
+			<ChoiceButton>true</ChoiceButton>
+			<OpenButton>true</OpenButton>
 			<ChooseType>false</ChooseType>
 			<ContextMenu name="ДвиженияКМФулфилментКонтекстноеМеню" id="2"/>
 			<ExtendedTooltip name="ДвиженияКМФулфилментРасширеннаяПодсказка" id="3"/>
+			<Events>
+				<Event name="ChoiceProcessing">ДвиженияКМФулфилментОбработкаВыбора</Event>
+			</Events>
 		</InputField>
 		<Button name="СформироватьВыводИзОборотаИСМП" id="4">
 			<Type>UsualButton</Type>
 			<CommandName>Form.Command.СформироватьВыводИзОборотаИСМП</CommandName>
 			<ExtendedTooltip name="СформироватьВыводИзОборотаИСМПРасширеннаяПодсказка" id="5"/>
 		</Button>
+		<Button name="СформироватьВозвратВОборот" id="9">
+			<Type>UsualButton</Type>
+			<CommandName>Form.Command.СформироватьВозвратВОборот</CommandName>
+			<ExtendedTooltip name="СформироватьВозвратВОборотРасширеннаяПодсказка" id="10"/>
+		</Button>
+		<InputField name="ВыводИзОборота" id="6">
+			<DataPath>Документ</DataPath>
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Документ</v8:content>
+				</v8:item>
+			</Title>
+			<DropListButton>false</DropListButton>
+			<ContextMenu name="ВыводИзОборотаКонтекстноеМеню" id="7"/>
+			<ExtendedTooltip name="ВыводИзОборотаРасширеннаяПодсказка" id="8"/>
+		</InputField>
 	</ChildItems>
 	<Attributes>
 		<Attribute name="Объект" id="1">
@@ -38,6 +60,15 @@
 				<Field>ДвиженияКМФулфилмент</Field>
 			</Save>
 		</Attribute>
+		<Attribute name="Документ" id="3">
+			<Type>
+				<v8:Type>xs:string</v8:Type>
+				<v8:StringQualifiers>
+					<v8:Length>0</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
+			</Type>
+		</Attribute>
 	</Attributes>
 	<Commands>
 		<Command name="СформироватьВыводИзОборотаИСМП" id="1">
@@ -54,6 +85,21 @@
 				</v8:item>
 			</ToolTip>
 			<Action>СформироватьВыводИзОборотаИСМП</Action>
+		</Command>
+		<Command name="СформироватьВозвратВОборот" id="2">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Сформировать возврат в оборот</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Сформировать возврат в оборот</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>СформироватьВозвратВОборот</Action>
 		</Command>
 	</Commands>
 </Form>
