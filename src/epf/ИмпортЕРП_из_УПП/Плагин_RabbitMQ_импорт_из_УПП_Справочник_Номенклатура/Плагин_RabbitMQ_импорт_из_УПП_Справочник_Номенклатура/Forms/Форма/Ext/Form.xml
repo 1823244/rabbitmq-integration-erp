@@ -22,6 +22,12 @@
 			<ContextMenu name="ИмяФайлаКонтекстноеМеню" id="18"/>
 			<ExtendedTooltip name="ИмяФайлаРасширеннаяПодсказка" id="19"/>
 		</InputField>
+		<InputField name="ИмяКаталога" id="23">
+			<DataPath>ИмяКаталога</DataPath>
+			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+			<ContextMenu name="ИмяКаталогаКонтекстноеМеню" id="24"/>
+			<ExtendedTooltip name="ИмяКаталогаРасширеннаяПодсказка" id="25"/>
+		</InputField>
 		<InputField name="JsonText" id="3">
 			<DataPath>JsonText</DataPath>
 			<MultiLine>true</MultiLine>
@@ -139,6 +145,24 @@
 					<v8:AllowedLength>Variable</v8:AllowedLength>
 				</v8:StringQualifiers>
 			</Type>
+		</Attribute>
+		<Attribute name="ИмяКаталога" id="7">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Имя каталога</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:string</v8:Type>
+				<v8:StringQualifiers>
+					<v8:Length>0</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
+			</Type>
+			<Save>
+				<Field>ИмяКаталога</Field>
+			</Save>
 		</Attribute>
 	</Attributes>
 	<Commands>
