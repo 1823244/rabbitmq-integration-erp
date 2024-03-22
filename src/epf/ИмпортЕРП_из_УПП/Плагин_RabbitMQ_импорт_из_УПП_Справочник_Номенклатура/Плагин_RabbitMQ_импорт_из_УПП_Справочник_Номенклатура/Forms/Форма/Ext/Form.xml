@@ -5,18 +5,29 @@
 		<Event name="OnOpen">ПриОткрытии</Event>
 	</Events>
 	<ChildItems>
+		<LabelDecoration name="Декорация1" id="20">
+			<TextColor>style:SpecialTextColor</TextColor>
+			<Title formatted="false">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Если указано имя файла - загрузка будет из него, а не из текста на форме</v8:content>
+				</v8:item>
+			</Title>
+			<ContextMenu name="Декорация1КонтекстноеМеню" id="21"/>
+			<ExtendedTooltip name="Декорация1РасширеннаяПодсказка" id="22"/>
+		</LabelDecoration>
+		<InputField name="ИмяФайла" id="17">
+			<DataPath>ИмяФайла</DataPath>
+			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+			<ContextMenu name="ИмяФайлаКонтекстноеМеню" id="18"/>
+			<ExtendedTooltip name="ИмяФайлаРасширеннаяПодсказка" id="19"/>
+		</InputField>
 		<InputField name="JsonText" id="3">
 			<DataPath>JsonText</DataPath>
 			<MultiLine>true</MultiLine>
 			<ExtendedEdit>true</ExtendedEdit>
 			<ContextMenu name="JsonTextКонтекстноеМеню" id="4"/>
 			<ExtendedTooltip name="JsonTextРасширеннаяПодсказка" id="5"/>
-		</InputField>
-		<InputField name="ИмяФайла" id="17">
-			<DataPath>ИмяФайла</DataPath>
-			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
-			<ContextMenu name="ИмяФайлаКонтекстноеМеню" id="18"/>
-			<ExtendedTooltip name="ИмяФайлаРасширеннаяПодсказка" id="19"/>
 		</InputField>
 		<InputField name="ВидНоменклатуры" id="6">
 			<DataPath>ВидНоменклатуры</DataPath>
