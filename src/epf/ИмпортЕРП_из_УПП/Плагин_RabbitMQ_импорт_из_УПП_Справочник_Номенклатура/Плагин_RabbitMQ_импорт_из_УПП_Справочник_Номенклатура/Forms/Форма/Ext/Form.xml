@@ -10,18 +10,12 @@
 			<Title formatted="false">
 				<v8:item>
 					<v8:lang>ru</v8:lang>
-					<v8:content>Если указано имя файла - загрузка будет из него, а не из текста на форме</v8:content>
+					<v8:content>Если указано имя каталога - загрузка будет из него, а не из текста на форме</v8:content>
 				</v8:item>
 			</Title>
 			<ContextMenu name="Декорация1КонтекстноеМеню" id="21"/>
 			<ExtendedTooltip name="Декорация1РасширеннаяПодсказка" id="22"/>
 		</LabelDecoration>
-		<InputField name="ИмяФайла" id="17">
-			<DataPath>ИмяФайла</DataPath>
-			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
-			<ContextMenu name="ИмяФайлаКонтекстноеМеню" id="18"/>
-			<ExtendedTooltip name="ИмяФайлаРасширеннаяПодсказка" id="19"/>
-		</InputField>
 		<InputField name="ИмяКаталога" id="23">
 			<DataPath>ИмяКаталога</DataPath>
 			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
@@ -121,21 +115,6 @@
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Гуид</v8:content>
-				</v8:item>
-			</Title>
-			<Type>
-				<v8:Type>xs:string</v8:Type>
-				<v8:StringQualifiers>
-					<v8:Length>0</v8:Length>
-					<v8:AllowedLength>Variable</v8:AllowedLength>
-				</v8:StringQualifiers>
-			</Type>
-		</Attribute>
-		<Attribute name="ИмяФайла" id="6">
-			<Title>
-				<v8:item>
-					<v8:lang>ru</v8:lang>
-					<v8:content>Имя файла</v8:content>
 				</v8:item>
 			</Title>
 			<Type>
