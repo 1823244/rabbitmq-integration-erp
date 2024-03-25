@@ -31,6 +31,12 @@
 			<ContextMenu name="СсылочныйТипКонтекстноеМеню" id="9"/>
 			<ExtendedTooltip name="СсылочныйТипРасширеннаяПодсказка" id="10"/>
 		</InputField>
+		<InputField name="ИдВызоваФорма" id="11">
+			<DataPath>ИдВызоваФорма</DataPath>
+			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+			<ContextMenu name="ИдВызоваФормаКонтекстноеМеню" id="12"/>
+			<ExtendedTooltip name="ИдВызоваФормаРасширеннаяПодсказка" id="13"/>
+		</InputField>
 	</ChildItems>
 	<Attributes>
 		<Attribute name="Объект" id="1">
@@ -68,6 +74,15 @@
 			<Type>
 				<v8:TypeSet>cfg:AnyIBRef</v8:TypeSet>
 			</Type>
+		</Attribute>
+		<Attribute name="ИдВызоваФорма" id="3">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Ид вызова форма</v8:content>
+				</v8:item>
+			</Title>
+			<Type/>
 		</Attribute>
 	</Attributes>
 	<Commands>
