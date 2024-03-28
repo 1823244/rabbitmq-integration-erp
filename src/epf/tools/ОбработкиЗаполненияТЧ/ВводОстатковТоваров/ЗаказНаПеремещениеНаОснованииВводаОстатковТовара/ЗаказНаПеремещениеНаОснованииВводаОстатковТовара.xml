@@ -57,7 +57,6 @@
 				</Properties>
 			</Attribute>
 			<Form>Форма</Form>
-			<Form>ЗапросПараметров</Form>
 		</ChildObjects>
 	</ExternalDataProcessor>
 </MetaDataObject>
