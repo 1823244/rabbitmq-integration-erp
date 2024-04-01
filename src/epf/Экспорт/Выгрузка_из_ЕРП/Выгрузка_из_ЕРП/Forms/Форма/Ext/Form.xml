@@ -25,16 +25,22 @@
 		<Event name="OnCreateAtServer">ПриСозданииНаСервере</Event>
 	</Events>
 	<ChildItems>
-		<Button name="ВыгрузитьПеречисления" id="3">
-			<Type>UsualButton</Type>
-			<CommandName>Form.Command.ВыгрузитьПеречисления</CommandName>
-			<ExtendedTooltip name="ВыгрузитьПеречисленияРасширеннаяПодсказка" id="4"/>
-		</Button>
 		<LabelField name="Версия" id="7">
 			<DataPath>Версия</DataPath>
 			<ContextMenu name="ВерсияКонтекстноеМеню" id="8"/>
 			<ExtendedTooltip name="ВерсияРасширеннаяПодсказка" id="9"/>
 		</LabelField>
+		<InputField name="ЛюбаяСсылка" id="10">
+			<DataPath>ЛюбаяСсылка</DataPath>
+			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+			<ContextMenu name="ЛюбаяСсылкаКонтекстноеМеню" id="11"/>
+			<ExtendedTooltip name="ЛюбаяСсылкаРасширеннаяПодсказка" id="12"/>
+		</InputField>
+		<Button name="ВыполнитьЭкспортЛюбойСсылки" id="13">
+			<Type>UsualButton</Type>
+			<CommandName>Form.Command.ВыполнитьЭкспортЛюбойСсылки</CommandName>
+			<ExtendedTooltip name="ВыполнитьЭкспортЛюбойСсылкиРасширеннаяПодсказка" id="14"/>
+		</Button>
 	</ChildItems>
 	<Attributes>
 		<Attribute name="Объект" id="1">
@@ -73,6 +79,17 @@
 				</v8:StringQualifiers>
 			</Type>
 		</Attribute>
+		<Attribute name="ЛюбаяСсылка" id="4">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Любая ссылка</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:TypeSet>cfg:AnyIBRef</v8:TypeSet>
+			</Type>
+		</Attribute>
 	</Attributes>
 	<Commands>
 		<Command name="test" id="1">
@@ -90,21 +107,6 @@
 			</ToolTip>
 			<Action>test</Action>
 		</Command>
-		<Command name="СформироватьJsonСправочникНоменклатура" id="2">
-			<Title>
-				<v8:item>
-					<v8:lang>ru</v8:lang>
-					<v8:content>Сформировать json справочник номенклатура</v8:content>
-				</v8:item>
-			</Title>
-			<ToolTip>
-				<v8:item>
-					<v8:lang>ru</v8:lang>
-					<v8:content>Сформировать json справочник номенклатура</v8:content>
-				</v8:item>
-			</ToolTip>
-			<Action>СформироватьJsonСправочникНоменклатура</Action>
-		</Command>
 		<Command name="ВыполнитьЭкспорт" id="3">
 			<Title>
 				<v8:item>
@@ -120,21 +122,6 @@
 			</ToolTip>
 			<Action>ВыполнитьЭкспорт</Action>
 		</Command>
-		<Command name="ВыгрузитьПеречисления" id="4">
-			<Title>
-				<v8:item>
-					<v8:lang>ru</v8:lang>
-					<v8:content>Выгрузить перечисления</v8:content>
-				</v8:item>
-			</Title>
-			<ToolTip>
-				<v8:item>
-					<v8:lang>ru</v8:lang>
-					<v8:content>Выгрузить перечисления</v8:content>
-				</v8:item>
-			</ToolTip>
-			<Action>ВыгрузитьПеречисления</Action>
-		</Command>
 		<Command name="ВыполнитьЭкспортВерсия2" id="5">
 			<Title>
 				<v8:item>
@@ -149,6 +136,21 @@
 				</v8:item>
 			</ToolTip>
 			<Action>ВыполнитьЭкспортВерсия2</Action>
+		</Command>
+		<Command name="ВыполнитьЭкспортЛюбойСсылки" id="2">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Выполнить экспорт любой ссылки</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Выполнить экспорт любой ссылки</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>ВыполнитьЭкспортЛюбойСсылки</Action>
 		</Command>
 	</Commands>
 </Form>
