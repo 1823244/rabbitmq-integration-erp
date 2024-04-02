@@ -687,11 +687,11 @@
 	ЗапланироватьОчередь(ТЗ, queue, false, true, false, false, 0, arguments);										
 	
 	exchange = "erp";
-	roretailingKey = "doc";
-	ЗапланироватьСвязывание(ТЗ_Связывание, queue, exchange, roretailingKey, "");
+	routingKey = "doc";
+	ЗапланироватьСвязывание(ТЗ_Связывание, queue, exchange, routingKey, "");
 	exchange = "retail-from-erp.return";
-	roretailingKey = "doc";
-	ЗапланироватьСвязывание(ТЗ_Связывание, queue, exchange, roretailingKey, "");
+	routingKey = "doc";
+	ЗапланироватьСвязывание(ТЗ_Связывание, queue, exchange, routingKey, "");
 	
 	// retry-очередь. Подключается к точке обмена типа Retry
 	queue = "to-retail-from-erp-doc-retry";
@@ -703,8 +703,8 @@
 	ЗапланироватьОчередь(ТЗ, queue, false, true, false, false, 0, arguments);										
 	
 	exchange = "retail-from-erp.retry";
-	roretailingKey = "doc";
-	ЗапланироватьСвязывание(ТЗ_Связывание, queue, exchange, roretailingKey, "");
+	routingKey = "doc";
+	ЗапланироватьСвязывание(ТЗ_Связывание, queue, exchange, routingKey, "");
 	
 	//  - STATIC
 	
@@ -717,11 +717,11 @@
 	ЗапланироватьОчередь(ТЗ, queue, false, true, false, false, 0, arguments);										
 	
 	exchange = "erp";
-	roretailingKey = "static";
-	ЗапланироватьСвязывание(ТЗ_Связывание, queue, exchange, roretailingKey, "");
+	routingKey = "static";
+	ЗапланироватьСвязывание(ТЗ_Связывание, queue, exchange, routingKey, "");
 	exchange = "retail-from-erp.return";
-	roretailingKey = "static";
-	ЗапланироватьСвязывание(ТЗ_Связывание, queue, exchange, roretailingKey, "");
+	routingKey = "static";
+	ЗапланироватьСвязывание(ТЗ_Связывание, queue, exchange, routingKey, "");
 	
 	// retry-очередь. Подключается к точке обмена типа Retry
 	queue = "to-retail-from-erp-static-retry";
@@ -733,8 +733,8 @@
 	ЗапланироватьОчередь(ТЗ, queue, false, true, false, false, 0, arguments);										
 	
 	exchange = "retail-from-erp.retry";
-	roretailingKey = "static";
-	ЗапланироватьСвязывание(ТЗ_Связывание, queue, exchange, roretailingKey, "");
+	routingKey = "static";
+	ЗапланироватьСвязывание(ТЗ_Связывание, queue, exchange, routingKey, "");
 	
 #КонецОбласти
 	
