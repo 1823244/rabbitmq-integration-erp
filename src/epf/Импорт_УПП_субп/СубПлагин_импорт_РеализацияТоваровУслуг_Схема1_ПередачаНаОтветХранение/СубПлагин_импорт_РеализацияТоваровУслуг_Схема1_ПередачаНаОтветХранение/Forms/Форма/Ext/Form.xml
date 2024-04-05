@@ -95,7 +95,7 @@
 	<Attributes>
 		<Attribute name="Объект" id="1">
 			<Type>
-				<v8:Type>cfg:ExternalDataProcessorObject.СубПлагин_импорт_РеализацияТоваровУслуг_Схема2_отвХран</v8:Type>
+				<v8:Type>cfg:ExternalDataProcessorObject.СубПлагин_импорт_РеализацияТоваровУслуг_Схема1_ПередачаНаОтветХранение</v8:Type>
 			</Type>
 			<MainAttribute>true</MainAttribute>
 		</Attribute>
