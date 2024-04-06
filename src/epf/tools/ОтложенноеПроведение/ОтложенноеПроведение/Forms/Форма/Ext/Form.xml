@@ -11,6 +11,9 @@
 			</Button>
 		</ChildItems>
 	</AutoCommandBar>
+	<Events>
+		<Event name="OnCreateAtServer">ПриСозданииНаСервере</Event>
+	</Events>
 	<ChildItems>
 		<InputField name="ДокументСсылка" id="3">
 			<DataPath>ДокументСсылка</DataPath>
@@ -22,6 +25,25 @@
 			<Type>UsualButton</Type>
 			<CommandName>Form.Command.ПровестиОдинДокумент</CommandName>
 			<ExtendedTooltip name="ПровестиОдинДокументРасширеннаяПодсказка" id="7"/>
+		</Button>
+		<InputField name="ПериодПроведения" id="8">
+			<DataPath>ПериодПроведения</DataPath>
+			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+			<ContextMenu name="ПериодПроведенияКонтекстноеМеню" id="9"/>
+			<ExtendedTooltip name="ПериодПроведенияРасширеннаяПодсказка" id="10"/>
+		</InputField>
+		<InputField name="ВидДокументов" id="11">
+			<DataPath>ВидДокументов</DataPath>
+			<ClearButton>true</ClearButton>
+			<ListChoiceMode>true</ListChoiceMode>
+			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+			<ContextMenu name="ВидДокументовКонтекстноеМеню" id="12"/>
+			<ExtendedTooltip name="ВидДокументовРасширеннаяПодсказка" id="13"/>
+		</InputField>
+		<Button name="ПровестиЗаПериодВидДокументов" id="14">
+			<Type>UsualButton</Type>
+			<CommandName>Form.Command.ПровестиЗаПериодВидДокументов</CommandName>
+			<ExtendedTooltip name="ПровестиЗаПериодВидДокументовРасширеннаяПодсказка" id="15"/>
 		</Button>
 	</ChildItems>
 	<Attributes>
@@ -63,6 +85,35 @@
 				<Field>ДокументСсылка</Field>
 			</Save>
 		</Attribute>
+		<Attribute name="ПериодПроведения" id="3">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Период проведения</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>v8:StandardPeriod</v8:Type>
+			</Type>
+			<Save>
+				<Field>ПериодПроведения</Field>
+			</Save>
+		</Attribute>
+		<Attribute name="ВидДокументов" id="5">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Вид документов</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:string</v8:Type>
+				<v8:StringQualifiers>
+					<v8:Length>0</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
+			</Type>
+		</Attribute>
 	</Attributes>
 	<Commands>
 		<Command name="ВыполнитьОтложенноеПроведение" id="1">
@@ -94,6 +145,21 @@
 				</v8:item>
 			</ToolTip>
 			<Action>ПровестиОдинДокумент</Action>
+		</Command>
+		<Command name="ПровестиЗаПериодВидДокументов" id="3">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Провести за период вид документов</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Провести за период вид документов</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>ПровестиЗаПериодВидДокументов</Action>
 		</Command>
 	</Commands>
 </Form>
