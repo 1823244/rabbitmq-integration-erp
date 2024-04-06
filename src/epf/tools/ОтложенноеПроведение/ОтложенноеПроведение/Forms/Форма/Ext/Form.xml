@@ -40,6 +40,16 @@
 			<ContextMenu name="ВидДокументовКонтекстноеМеню" id="12"/>
 			<ExtendedTooltip name="ВидДокументовРасширеннаяПодсказка" id="13"/>
 		</InputField>
+		<LabelDecoration name="Декорация1" id="16">
+			<Title formatted="false">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Проведенные не перепроводятся!</v8:content>
+				</v8:item>
+			</Title>
+			<ContextMenu name="Декорация1КонтекстноеМеню" id="17"/>
+			<ExtendedTooltip name="Декорация1РасширеннаяПодсказка" id="18"/>
+		</LabelDecoration>
 		<Button name="ПровестиЗаПериодВидДокументов" id="14">
 			<Type>UsualButton</Type>
 			<CommandName>Form.Command.ПровестиЗаПериодВидДокументов</CommandName>
