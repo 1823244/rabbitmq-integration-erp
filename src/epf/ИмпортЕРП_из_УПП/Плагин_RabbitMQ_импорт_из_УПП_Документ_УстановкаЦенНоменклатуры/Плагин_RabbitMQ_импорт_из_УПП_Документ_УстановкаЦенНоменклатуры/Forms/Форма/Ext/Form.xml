@@ -78,6 +78,23 @@
 			<ContextMenu name="СсылочныйТипКонтекстноеМеню" id="9"/>
 			<ExtendedTooltip name="СсылочныйТипРасширеннаяПодсказка" id="10"/>
 		</InputField>
+		<UsualGroup name="Группа2" id="30">
+			<Group>AlwaysHorizontal</Group>
+			<ExtendedTooltip name="Группа2РасширеннаяПодсказка" id="31"/>
+			<ChildItems>
+				<InputField name="ИдВызова" id="27">
+					<DataPath>ИдВызова</DataPath>
+					<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+					<ContextMenu name="ИдВызоваКонтекстноеМеню" id="28"/>
+					<ExtendedTooltip name="ИдВызоваРасширеннаяПодсказка" id="29"/>
+				</InputField>
+				<Button name="ОтчетПоЛогу" id="32">
+					<Type>UsualButton</Type>
+					<CommandName>Form.Command.ОтчетПоЛогу</CommandName>
+					<ExtendedTooltip name="ОтчетПоЛогуРасширеннаяПодсказка" id="33"/>
+				</Button>
+			</ChildItems>
+		</UsualGroup>
 	</ChildItems>
 	<Attributes>
 		<Attribute name="Объект" id="1">
@@ -144,6 +161,15 @@
 				</Column>
 			</Columns>
 		</Attribute>
+		<Attribute name="ИдВызова" id="5">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Ид вызова</v8:content>
+				</v8:item>
+			</Title>
+			<Type/>
+		</Attribute>
 	</Attributes>
 	<Commands>
 		<Command name="ЗагрузитьИзJson" id="1">
@@ -175,6 +201,21 @@
 				</v8:item>
 			</ToolTip>
 			<Action>УдалитьВсеОтчеты</Action>
+		</Command>
+		<Command name="ОтчетПоЛогу" id="3">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Отчет по логу</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Отчет по логу</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>ОтчетПоЛогу</Action>
 		</Command>
 	</Commands>
 </Form>
