@@ -6,21 +6,21 @@
 				<xr:ClassId>c3831ec8-d8d5-4f93-8a22-f9bfae07327f</xr:ClassId>
 				<xr:ObjectId>2a508fde-8cc7-48aa-bf9f-920dcf71b685</xr:ObjectId>
 			</xr:ContainedObject>
-			<xr:GeneratedType name="ExternalDataProcessorObject.Плагин_RabbitMQ_импорт_из_БП_Документ_ЗаказКлиента" category="Object">
+			<xr:GeneratedType name="ExternalDataProcessorObject.Плагин_RabbitMQ_импорт_из_БП_Документ_ЗаявкаПокупателя" category="Object">
 				<xr:TypeId>b0043beb-0775-46ea-8b17-67fa5727c418</xr:TypeId>
 				<xr:ValueId>2d15277e-aba1-453d-83c1-e65042c115db</xr:ValueId>
 			</xr:GeneratedType>
 		</InternalInfo>
 		<Properties>
-			<Name>Плагин_RabbitMQ_импорт_из_БП_Документ_ЗаказКлиента</Name>
+			<Name>Плагин_RabbitMQ_импорт_из_БП_Документ_ЗаявкаПокупателя</Name>
 			<Synonym>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
-					<v8:content>Плагин rabbit m q импорт из б п документ заказ клиента</v8:content>
+					<v8:content>Плагин_RabbitMQ_импорт_из_БП_Документ_ЗаявкаПокупателя</v8:content>
 				</v8:item>
 			</Synonym>
 			<Comment/>
-			<DefaultForm>ExternalDataProcessor.Плагин_RabbitMQ_импорт_из_БП_Документ_ЗаказКлиента.Form.Форма</DefaultForm>
+			<DefaultForm>ExternalDataProcessor.Плагин_RabbitMQ_импорт_из_БП_Документ_ЗаявкаПокупателя.Form.Форма</DefaultForm>
 			<AuxiliaryForm/>
 		</Properties>
 		<ChildObjects>
