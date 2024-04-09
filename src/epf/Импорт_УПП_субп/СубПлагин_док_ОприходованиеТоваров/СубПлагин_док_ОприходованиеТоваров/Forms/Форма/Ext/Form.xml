@@ -33,7 +33,6 @@
 		</InputField>
 		<InputField name="СкладЕРП" id="27">
 			<DataPath>СкладЕРП</DataPath>
-			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
 			<ContextMenu name="СкладЕРПКонтекстноеМеню" id="28"/>
 			<ExtendedTooltip name="СкладЕРПРасширеннаяПодсказка" id="29"/>
 		</InputField>
@@ -88,7 +87,6 @@
 				<InputField name="ТаблицаДокументовДокСсылка" id="24">
 					<DataPath>ТаблицаДокументов.ДокСсылка</DataPath>
 					<EditMode>EnterOnInput</EditMode>
-					<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
 					<ContextMenu name="ТаблицаДокументовДокСсылкаКонтекстноеМеню" id="25"/>
 					<ExtendedTooltip name="ТаблицаДокументовДокСсылкаРасширеннаяПодсказка" id="26"/>
 				</InputField>
