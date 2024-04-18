@@ -39,6 +39,20 @@
 			<ContextMenu name="СсылочныйТипКонтекстноеМеню" id="9"/>
 			<ExtendedTooltip name="СсылочныйТипРасширеннаяПодсказка" id="10"/>
 		</InputField>
+		<Button name="ПоказатьЛог" id="14">
+			<Type>UsualButton</Type>
+			<CommandName>Form.Command.ПоказатьЛог</CommandName>
+			<ExtendedTooltip name="ПоказатьЛогРасширеннаяПодсказка" id="15"/>
+		</Button>
+		<LabelField name="ИдВызова" id="16">
+			<DataPath>ИдВызова</DataPath>
+			<Hiperlink>true</Hiperlink>
+			<ContextMenu name="ИдВызоваКонтекстноеМеню" id="17"/>
+			<ExtendedTooltip name="ИдВызоваРасширеннаяПодсказка" id="18"/>
+			<Events>
+				<Event name="Click">ИдВызоваНажатие</Event>
+			</Events>
+		</LabelField>
 	</ChildItems>
 	<Attributes>
 		<Attribute name="Объект" id="1">
@@ -92,6 +106,15 @@
 				</v8:StringQualifiers>
 			</Type>
 		</Attribute>
+		<Attribute name="ИдВызова" id="5">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Ид вызова</v8:content>
+				</v8:item>
+			</Title>
+			<Type/>
+		</Attribute>
 	</Attributes>
 	<Commands>
 		<Command name="ЗагрузитьИзJson" id="1">
@@ -123,6 +146,21 @@
 				</v8:item>
 			</ToolTip>
 			<Action>УдалитьВсеОтчеты</Action>
+		</Command>
+		<Command name="ПоказатьЛог" id="3">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Показать лог</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Показать лог</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>ПоказатьЛог</Action>
 		</Command>
 	</Commands>
 </Form>
