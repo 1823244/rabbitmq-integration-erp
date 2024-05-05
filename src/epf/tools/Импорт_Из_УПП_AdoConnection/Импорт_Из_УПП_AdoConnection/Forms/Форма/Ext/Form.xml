@@ -3,6 +3,12 @@
 	<AutoSaveDataInSettings>Use</AutoSaveDataInSettings>
 	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1"/>
 	<ChildItems>
+		<InputField name="РазмерПакета" id="19">
+			<DataPath>РазмерПакета</DataPath>
+			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+			<ContextMenu name="РазмерПакетаКонтекстноеМеню" id="20"/>
+			<ExtendedTooltip name="РазмерПакетаРасширеннаяПодсказка" id="21"/>
+		</InputField>
 		<Button name="ТестПрочитатьПервые10ШК" id="1">
 			<Type>UsualButton</Type>
 			<CommandName>Form.Command.ТестПрочитатьПервые10ШК</CommandName>
@@ -129,6 +135,25 @@
 			</Type>
 			<Save>
 				<Field>Пароль</Field>
+			</Save>
+		</Attribute>
+		<Attribute name="РазмерПакета" id="7">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Размер пакета</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:decimal</v8:Type>
+				<v8:NumberQualifiers>
+					<v8:Digits>10</v8:Digits>
+					<v8:FractionDigits>0</v8:FractionDigits>
+					<v8:AllowedSign>Any</v8:AllowedSign>
+				</v8:NumberQualifiers>
+			</Type>
+			<Save>
+				<Field>РазмерПакета</Field>
 			</Save>
 		</Attribute>
 	</Attributes>
