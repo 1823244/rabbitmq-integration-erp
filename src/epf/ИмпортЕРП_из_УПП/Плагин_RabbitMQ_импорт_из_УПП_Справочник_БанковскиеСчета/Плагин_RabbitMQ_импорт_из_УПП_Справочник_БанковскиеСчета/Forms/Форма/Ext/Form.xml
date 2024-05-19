@@ -47,7 +47,7 @@
 	<Attributes>
 		<Attribute name="Объект" id="1">
 			<Type>
-				<v8:Type>cfg:ExternalDataProcessorObject.Плагин_RabbitMQ_импорт_из_УПП_Справочник_ДоговорыКонтрагентов</v8:Type>
+				<v8:Type>cfg:ExternalDataProcessorObject.Плагин_RabbitMQ_импорт_из_УПП_Справочник_БанковскиеСчета</v8:Type>
 			</Type>
 			<MainAttribute>true</MainAttribute>
 		</Attribute>
@@ -73,7 +73,7 @@
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
-					<v8:content>Договор</v8:content>
+					<v8:content>Банк счет</v8:content>
 				</v8:item>
 			</Title>
 			<Type/>

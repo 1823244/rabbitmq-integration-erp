@@ -6,21 +6,21 @@
 				<xr:ClassId>c3831ec8-d8d5-4f93-8a22-f9bfae07327f</xr:ClassId>
 				<xr:ObjectId>dccf194f-1e01-43f4-9bd0-4b6129df1fc7</xr:ObjectId>
 			</xr:ContainedObject>
-			<xr:GeneratedType name="ExternalDataProcessorObject.Плагин_RabbitMQ_импорт_из_УПП_Справочник_ДоговорыКонтрагентов" category="Object">
+			<xr:GeneratedType name="ExternalDataProcessorObject.Плагин_RabbitMQ_импорт_из_УПП_Справочник_БанковскиеСчета" category="Object">
 				<xr:TypeId>2408d966-99cd-4c66-afb5-6223dc99ed5b</xr:TypeId>
 				<xr:ValueId>5fa3be34-ed87-49c4-b9a1-4b68b8eca590</xr:ValueId>
 			</xr:GeneratedType>
 		</InternalInfo>
 		<Properties>
-			<Name>Плагин_RabbitMQ_импорт_из_УПП_Справочник_ДоговорыКонтрагентов</Name>
+			<Name>Плагин_RabbitMQ_импорт_из_УПП_Справочник_БанковскиеСчета</Name>
 			<Synonym>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
-					<v8:content>Плагин_RabbitMQ_импорт_из_УПП_Справочник_ДоговорыКонтрагентов</v8:content>
+					<v8:content>Плагин_RabbitMQ_импорт_из_УПП_Справочник_БанковскиеСчета</v8:content>
 				</v8:item>
 			</Synonym>
 			<Comment/>
-			<DefaultForm>ExternalDataProcessor.Плагин_RabbitMQ_импорт_из_УПП_Справочник_ДоговорыКонтрагентов.Form.Форма</DefaultForm>
+			<DefaultForm>ExternalDataProcessor.Плагин_RabbitMQ_импорт_из_УПП_Справочник_БанковскиеСчета.Form.Форма</DefaultForm>
 			<AuxiliaryForm/>
 		</Properties>
 		<ChildObjects>
