@@ -25,6 +25,7 @@
 		</Properties>
 		<ChildObjects>
 			<Form>Форма</Form>
+			<Template>Контрагент_ИП</Template>
 		</ChildObjects>
 	</ExternalDataProcessor>
 </MetaDataObject>
