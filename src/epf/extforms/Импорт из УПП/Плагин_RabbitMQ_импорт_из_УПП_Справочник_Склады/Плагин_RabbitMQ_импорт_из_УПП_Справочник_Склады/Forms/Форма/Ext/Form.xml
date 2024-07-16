@@ -63,6 +63,9 @@
 					<v8:AllowedLength>Variable</v8:AllowedLength>
 				</v8:StringQualifiers>
 			</Type>
+			<Save>
+				<Field>JsonText</Field>
+			</Save>
 		</Attribute>
 	</Attributes>
 	<Commands>
