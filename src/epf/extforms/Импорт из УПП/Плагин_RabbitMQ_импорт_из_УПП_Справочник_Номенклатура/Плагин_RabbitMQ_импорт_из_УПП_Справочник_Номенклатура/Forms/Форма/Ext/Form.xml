@@ -48,6 +48,16 @@
 			<ContextMenu name="ИмяКаталогаКонтекстноеМеню" id="24"/>
 			<ExtendedTooltip name="ИмяКаталогаРасширеннаяПодсказка" id="25"/>
 		</InputField>
+		<LabelDecoration name="Декорация2" id="37">
+			<Title formatted="false">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Внутри этого каталога создайте каталог processed. В него будут складываться обработанные файлы, чтобы при обрыве можно быть загружать не весь массив</v8:content>
+				</v8:item>
+			</Title>
+			<ContextMenu name="Декорация2КонтекстноеМеню" id="38"/>
+			<ExtendedTooltip name="Декорация2РасширеннаяПодсказка" id="39"/>
+		</LabelDecoration>
 		<InputField name="РазмерПорцииФайлов" id="29">
 			<DataPath>РазмерПорцииФайлов</DataPath>
 			<ContextMenu name="РазмерПорцииФайловКонтекстноеМеню" id="30"/>
