@@ -1,0 +1,192 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.16">
+	<AutoSaveDataInSettings>Use</AutoSaveDataInSettings>
+	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1"/>
+	<ChildItems>
+		<UsualGroup name="Группа1" id="1">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Для отладки</v8:content>
+				</v8:item>
+			</Title>
+			<Group>Vertical</Group>
+			<Behavior>Usual</Behavior>
+			<ExtendedTooltip name="Группа1РасширеннаяПодсказка" id="2"/>
+		</UsualGroup>
+		<InputField name="JsonText" id="3">
+			<DataPath>JsonText</DataPath>
+			<MultiLine>true</MultiLine>
+			<ExtendedEdit>true</ExtendedEdit>
+			<ContextMenu name="JsonTextКонтекстноеМеню" id="4"/>
+			<ExtendedTooltip name="JsonTextРасширеннаяПодсказка" id="5"/>
+		</InputField>
+		<Button name="ЗагрузитьИзJson" id="6">
+			<Type>UsualButton</Type>
+			<CommandName>Form.Command.ЗагрузитьИзJson</CommandName>
+			<ExtendedTooltip name="ЗагрузитьИзJsonРасширеннаяПодсказка" id="7"/>
+		</Button>
+		<Button name="Тест_Схема_1_ПеремещениеНаФулфилмент" id="32">
+			<Type>UsualButton</Type>
+			<Visible>false</Visible>
+			<CommandName>Form.Command.Тест_Схема_1_ПеремещениеНаФулфилмент</CommandName>
+			<ExtendedTooltip name="Тест_Схема_1_ПеремещениеНаФулфилментРасширеннаяПодсказка" id="33"/>
+		</Button>
+		<Button name="Тест_Схема_2_ПередачаНаКомиссию" id="34">
+			<Type>UsualButton</Type>
+			<Visible>false</Visible>
+			<CommandName>Form.Command.Тест_Схема_2_ПередачаНаКомиссию</CommandName>
+			<ExtendedTooltip name="Тест_Схема_2_ПередачаНаКомиссиюРасширеннаяПодсказка" id="35"/>
+		</Button>
+		<LabelDecoration name="Декорация1" id="29">
+			<Title formatted="false">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Результат</v8:content>
+				</v8:item>
+			</Title>
+			<ContextMenu name="Декорация1КонтекстноеМеню" id="30"/>
+			<ExtendedTooltip name="Декорация1РасширеннаяПодсказка" id="31"/>
+		</LabelDecoration>
+		<Table name="ТЗДокументов" id="13">
+			<Representation>List</Representation>
+			<AutoInsertNewRow>true</AutoInsertNewRow>
+			<EnableStartDrag>true</EnableStartDrag>
+			<EnableDrag>true</EnableDrag>
+			<DataPath>ТЗДокументов</DataPath>
+			<RowFilter xsi:nil="true"/>
+			<ContextMenu name="ТЗДокументовКонтекстноеМеню" id="14"/>
+			<AutoCommandBar name="ТЗДокументовКоманднаяПанель" id="15"/>
+			<ExtendedTooltip name="ТЗДокументовРасширеннаяПодсказка" id="16"/>
+			<SearchStringAddition name="ТЗДокументовСтрокаПоиска" id="17">
+				<AdditionSource>
+					<Item>ТЗДокументов</Item>
+					<Type>SearchStringRepresentation</Type>
+				</AdditionSource>
+				<ContextMenu name="ТЗДокументовСтрокаПоискаКонтекстноеМеню" id="18"/>
+				<ExtendedTooltip name="ТЗДокументовСтрокаПоискаРасширеннаяПодсказка" id="19"/>
+			</SearchStringAddition>
+			<ViewStatusAddition name="ТЗДокументовСостояниеПросмотра" id="20">
+				<AdditionSource>
+					<Item>ТЗДокументов</Item>
+					<Type>ViewStatusRepresentation</Type>
+				</AdditionSource>
+				<ContextMenu name="ТЗДокументовСостояниеПросмотраКонтекстноеМеню" id="21"/>
+				<ExtendedTooltip name="ТЗДокументовСостояниеПросмотраРасширеннаяПодсказка" id="22"/>
+			</ViewStatusAddition>
+			<SearchControlAddition name="ТЗДокументовУправлениеПоиском" id="23">
+				<AdditionSource>
+					<Item>ТЗДокументов</Item>
+					<Type>SearchControl</Type>
+				</AdditionSource>
+				<ContextMenu name="ТЗДокументовУправлениеПоискомКонтекстноеМеню" id="24"/>
+				<ExtendedTooltip name="ТЗДокументовУправлениеПоискомРасширеннаяПодсказка" id="25"/>
+			</SearchControlAddition>
+			<ChildItems>
+				<InputField name="ТЗДокументовДокумент" id="26">
+					<DataPath>ТЗДокументов.Документ</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="ТЗДокументовДокументКонтекстноеМеню" id="27"/>
+					<ExtendedTooltip name="ТЗДокументовДокументРасширеннаяПодсказка" id="28"/>
+				</InputField>
+			</ChildItems>
+		</Table>
+	</ChildItems>
+	<Attributes>
+		<Attribute name="Объект" id="1">
+			<Type>
+				<v8:Type>cfg:ExternalDataProcessorObject.СубПлагин_импорт_ПоступлениеТоваровУслуг</v8:Type>
+			</Type>
+			<MainAttribute>true</MainAttribute>
+		</Attribute>
+		<Attribute name="JsonText" id="4">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Json text</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:string</v8:Type>
+				<v8:StringQualifiers>
+					<v8:Length>0</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
+			</Type>
+			<Save>
+				<Field>JsonText</Field>
+			</Save>
+		</Attribute>
+		<Attribute name="ТЗДокументов" id="3">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>ТЗДокументов</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>v8:ValueTable</v8:Type>
+			</Type>
+			<Columns>
+				<Column name="Документ" id="1">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Документ</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:TypeSet>cfg:DocumentRef</v8:TypeSet>
+					</Type>
+				</Column>
+			</Columns>
+		</Attribute>
+	</Attributes>
+	<Commands>
+		<Command name="ЗагрузитьИзJson" id="1">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Загрузить из json</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Загрузить из json</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>ЗагрузитьИзJson</Action>
+		</Command>
+		<Command name="Тест_Схема_1_ПеремещениеНаФулфилмент" id="2">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Тест схема 1 перемещение на фулфилмент</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Тест схема 1 перемещение на фулфилмент</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>Тест_Схема_1_ПеремещениеНаФулфилмент</Action>
+		</Command>
+		<Command name="Тест_Схема_2_ПередачаНаКомиссию" id="3">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Тест схема 2 передача на комиссию</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Тест схема 2 передача на комиссию</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>Тест_Схема_2_ПередачаНаКомиссию</Action>
+		</Command>
+	</Commands>
+</Form>

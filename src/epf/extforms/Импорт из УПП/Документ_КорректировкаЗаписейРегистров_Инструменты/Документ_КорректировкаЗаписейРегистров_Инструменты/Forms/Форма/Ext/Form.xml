@@ -14,6 +14,12 @@
 			<Behavior>Usual</Behavior>
 			<ExtendedTooltip name="Группа1РасширеннаяПодсказка" id="2"/>
 		</UsualGroup>
+		<InputField name="ИмяКаталога" id="14">
+			<DataPath>ИмяКаталога</DataPath>
+			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+			<ContextMenu name="ИмяКаталогаКонтекстноеМеню" id="15"/>
+			<ExtendedTooltip name="ИмяКаталогаРасширеннаяПодсказка" id="16"/>
+		</InputField>
 		<InputField name="JsonText" id="3">
 			<DataPath>JsonText</DataPath>
 			<MultiLine>true</MultiLine>
@@ -27,15 +33,27 @@
 			<ExtendedTooltip name="ЗагрузитьИзJsonРасширеннаяПодсказка" id="7"/>
 		</Button>
 		<InputField name="СсылочныйТип" id="8">
-			<DataPath>СсылочныйТип</DataPath>
+			<DataPath>ВводОстатков</DataPath>
 			<ContextMenu name="СсылочныйТипКонтекстноеМеню" id="9"/>
 			<ExtendedTooltip name="СсылочныйТипРасширеннаяПодсказка" id="10"/>
+		</InputField>
+		<InputField name="ЗаказНаВнутрПотр" id="20">
+			<DataPath>ЗаказНаВнутрПотр</DataPath>
+			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+			<ContextMenu name="ЗаказНаВнутрПотрКонтекстноеМеню" id="21"/>
+			<ExtendedTooltip name="ЗаказНаВнутрПотрРасширеннаяПодсказка" id="22"/>
+		</InputField>
+		<InputField name="ИдВызоваФорма" id="17">
+			<DataPath>ИдВызоваФорма</DataPath>
+			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+			<ContextMenu name="ИдВызоваФормаКонтекстноеМеню" id="18"/>
+			<ExtendedTooltip name="ИдВызоваФормаРасширеннаяПодсказка" id="19"/>
 		</InputField>
 	</ChildItems>
 	<Attributes>
 		<Attribute name="Объект" id="1">
 			<Type>
-				<v8:Type>cfg:ExternalDataProcessorObject.Плагин_RabbitMQ_импорт_из_УПП_Документ_ОприходованиеТоваров</v8:Type>
+				<v8:Type>cfg:ExternalDataProcessorObject.Документ_КорректировкаЗаписейРегистров_Инструменты</v8:Type>
 			</Type>
 			<MainAttribute>true</MainAttribute>
 		</Attribute>
@@ -58,25 +76,80 @@
 				<Field>JsonText</Field>
 			</Save>
 		</Attribute>
-		<Attribute name="СсылочныйТип" id="2">
+		<Attribute name="ВводОстатков" id="2">
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
-					<v8:content>Результат</v8:content>
+					<v8:content>Ввод остатков товаров</v8:content>
 				</v8:item>
 			</Title>
 			<Type>
-				<v8:TypeSet>cfg:AnyIBRef</v8:TypeSet>
+				<v8:Type>xs:string</v8:Type>
+				<v8:StringQualifiers>
+					<v8:Length>0</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
 			</Type>
 		</Attribute>
-		<Attribute name="ИдВызова" id="3">
+		<Attribute name="ИмяФайла" id="3">
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
-					<v8:content>Ид вызова</v8:content>
+					<v8:content>Имя файла</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:string</v8:Type>
+				<v8:StringQualifiers>
+					<v8:Length>0</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
+			</Type>
+			<Save>
+				<Field>ИмяФайла</Field>
+			</Save>
+		</Attribute>
+		<Attribute name="ИмяКаталога" id="5">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Имя каталога</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:string</v8:Type>
+				<v8:StringQualifiers>
+					<v8:Length>0</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
+			</Type>
+			<Save>
+				<Field>ИмяКаталога</Field>
+			</Save>
+		</Attribute>
+		<Attribute name="ИдВызоваФорма" id="6">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Ид вызова форма</v8:content>
 				</v8:item>
 			</Title>
 			<Type/>
+		</Attribute>
+		<Attribute name="ЗаказНаВнутрПотр" id="7">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Заказ на внутр потр</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:string</v8:Type>
+				<v8:StringQualifiers>
+					<v8:Length>0</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
+			</Type>
 		</Attribute>
 	</Attributes>
 	<Commands>
