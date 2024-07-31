@@ -1,0 +1,18 @@
+﻿{
+    "source": "UPP",
+    "type": "Справочник.Склады",
+    "datetime": "2023-09-02T17:36:18",
+    "identification": {
+        "type": "Справочник.Склады",
+        "Ref": "8e00415f-594c-11ee-8bab-01ed33c124eb",
+    },
+    "definition": {
+        "isFolder": true,
+        "Parent": {
+            "type": "Справочник.Склады"
+        },
+        "Code": ""
+        "DeletionMark": false,
+        "Description": "Группа из УПП №1"
+    }
+}
