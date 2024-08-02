@@ -45,6 +45,12 @@
 		</LabelDecoration>
 		<InputField name="ИмяКаталога" id="23">
 			<DataPath>ИмяКаталога</DataPath>
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Имя каталога (без финального слэша)</v8:content>
+				</v8:item>
+			</Title>
 			<ContextMenu name="ИмяКаталогаКонтекстноеМеню" id="24"/>
 			<ExtendedTooltip name="ИмяКаталогаРасширеннаяПодсказка" id="25"/>
 		</InputField>
