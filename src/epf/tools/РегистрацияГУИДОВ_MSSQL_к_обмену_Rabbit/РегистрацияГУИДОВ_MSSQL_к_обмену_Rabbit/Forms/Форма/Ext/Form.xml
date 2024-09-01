@@ -36,22 +36,6 @@
 					</ToolTip>
 					<ExtendedTooltip name="ГруппаСсылочныеРасширеннаяПодсказка" id="21"/>
 					<ChildItems>
-						<SpreadSheetDocumentField name="ТабДок" id="3">
-							<DataPath>ТабДок</DataPath>
-							<Edit>true</Edit>
-							<ContextMenu name="ТабДокКонтекстноеМеню" id="4"/>
-							<ExtendedTooltip name="ТабДокРасширеннаяПодсказка" id="5"/>
-						</SpreadSheetDocumentField>
-						<LabelDecoration name="Декорация1" id="15">
-							<Title formatted="false">
-								<v8:item>
-									<v8:lang>ru</v8:lang>
-									<v8:content>Цикл по строкам начинается со ВТОРОЙ строки!</v8:content>
-								</v8:item>
-							</Title>
-							<ContextMenu name="Декорация1КонтекстноеМеню" id="16"/>
-							<ExtendedTooltip name="Декорация1РасширеннаяПодсказка" id="17"/>
-						</LabelDecoration>
 						<InputField name="ВидОбъектаДокумент" id="12">
 							<DataPath>ВидОбъектаДокумент</DataPath>
 							<ListChoiceMode>true</ListChoiceMode>
@@ -105,6 +89,22 @@
 							<CommandName>Form.Command.ВыгрузитьВРэббитСразу</CommandName>
 							<ExtendedTooltip name="ВыгрузитьВРэббитСразуРасширеннаяПодсказка" id="2"/>
 						</Button>
+						<LabelDecoration name="Декорация1" id="15">
+							<Title formatted="false">
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Цикл по строкам начинается со ВТОРОЙ строки!</v8:content>
+								</v8:item>
+							</Title>
+							<ContextMenu name="Декорация1КонтекстноеМеню" id="16"/>
+							<ExtendedTooltip name="Декорация1РасширеннаяПодсказка" id="17"/>
+						</LabelDecoration>
+						<SpreadSheetDocumentField name="ТабДок" id="3">
+							<DataPath>ТабДок</DataPath>
+							<Edit>true</Edit>
+							<ContextMenu name="ТабДокКонтекстноеМеню" id="4"/>
+							<ExtendedTooltip name="ТабДокРасширеннаяПодсказка" id="5"/>
+						</SpreadSheetDocumentField>
 					</ChildItems>
 				</Page>
 				<Page name="ГруппаРегистрШтрихкоды" id="22">
