@@ -115,3 +115,34 @@
 
 КонецПроцедуры
 
+
+
+
+&НаКлиенте
+Процедура ВыполнитьЗапросSQL(Команда)
+	ВыполнитьЗапросНаСервере();
+КонецПроцедуры
+
+&НаСервере
+Процедура ВыполнитьЗапросНаСервере()
+	
+	
+	connString = "Provider=SQLNCLI11;Server="+Сервер+";Database="+БазаДанных+";"; 
+	connString = connString + "Password="+СокрЛП(пароль)+";";
+	connString = connString + "User Id="+СокрЛП(Логин)+";";
+
+	
+	adoConnection = Новый COMОбъект("ADODB.Connection"); 
+	adoConnection.Open(connString);
+	
+	
+	_Command 					= Новый COMОбъект("ADODB.Command"); 
+	_Command.ActiveConnection 	= adoConnection;
+	_Command.CommandTimeout		= 20;
+	_Command.CommandText 		= ТекстЗапроса; 
+    _Command.CommandType 		= 8;//adCmdUnknown(8)    //adCmdStoredProc(4) 	- хранимая процедура. 
+	
+	
+	recordSet = _Command.execute();
+	
+КонецПроцедуры
