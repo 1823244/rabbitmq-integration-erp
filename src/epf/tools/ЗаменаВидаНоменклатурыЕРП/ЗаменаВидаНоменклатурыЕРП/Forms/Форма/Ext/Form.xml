@@ -19,6 +19,15 @@
 			</Type>
 			<MainAttribute>true</MainAttribute>
 		</Attribute>
+		<Attribute name="мГруппаДействующие" id="2">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>М группа действующие</v8:content>
+				</v8:item>
+			</Title>
+			<Type/>
+		</Attribute>
 	</Attributes>
 	<Commands>
 		<Command name="ВыполнитьОбработку" id="1">
