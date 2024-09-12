@@ -31,6 +31,34 @@
 				</Button>
 			</ChildItems>
 		</UsualGroup>
+		<InputField name="ИмяКаталога" id="16">
+			<DataPath>ИмяКаталога</DataPath>
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Имя каталога для CSV (без финального слэша)</v8:content>
+				</v8:item>
+			</Title>
+			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+			<ContextMenu name="ИмяКаталогаКонтекстноеМеню" id="17"/>
+			<ExtendedTooltip name="ИмяКаталогаРасширеннаяПодсказка" id="18"/>
+		</InputField>
+		<Button name="ЗагрузитьИзКаталогаCSV" id="19">
+			<Type>UsualButton</Type>
+			<CommandName>Form.Command.ЗагрузитьИзКаталогаCSV</CommandName>
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Загрузить в регистр ШтрихкодыНоменклатуры</v8:content>
+				</v8:item>
+			</Title>
+			<ExtendedTooltip name="ЗагрузитьИзКаталогаCSVРасширеннаяПодсказка" id="20"/>
+		</Button>
+		<Button name="ЗагрузитьвСправочникШтрихкодыУпаковок" id="21">
+			<Type>UsualButton</Type>
+			<CommandName>Form.Command.ЗагрузитьвСправочникШтрихкодыУпаковок</CommandName>
+			<ExtendedTooltip name="ЗагрузитьвСправочникШтрихкодыУпаковокРасширеннаяПодсказка" id="22"/>
+		</Button>
 	</ChildItems>
 	<Attributes>
 		<Attribute name="Объект" id="1">
@@ -53,6 +81,27 @@
 					<v8:AllowedLength>Variable</v8:AllowedLength>
 				</v8:StringQualifiers>
 			</Type>
+			<Save>
+				<Field>JsonText</Field>
+			</Save>
+		</Attribute>
+		<Attribute name="ИмяКаталога" id="3">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Имя каталога</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:string</v8:Type>
+				<v8:StringQualifiers>
+					<v8:Length>0</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
+			</Type>
+			<Save>
+				<Field>ИмяКаталога</Field>
+			</Save>
 		</Attribute>
 	</Attributes>
 	<Commands>
@@ -70,6 +119,36 @@
 				</v8:item>
 			</ToolTip>
 			<Action>ЗагрузитьИзJson</Action>
+		</Command>
+		<Command name="ЗагрузитьИзКаталогаCSV" id="2">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Загрузить из каталога CSV</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Загрузить из каталога CSV</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>ЗагрузитьИзКаталогаCSV</Action>
+		</Command>
+		<Command name="ЗагрузитьвСправочникШтрихкодыУпаковок" id="3">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Загрузитьв справочник ШтрихкодыУпаковок</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Загрузитьв справочник штрихкоды упаковок</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>ЗагрузитьвСправочникШтрихкодыУпаковок</Action>
 		</Command>
 	</Commands>
 </Form>
